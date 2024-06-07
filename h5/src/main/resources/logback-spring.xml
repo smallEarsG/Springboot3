@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="WARN">
+    <Appenders>
+        <Console name="Console" target="SYSTEM_OUT">
+            <PatternLayout pattern="%d{yyyy-MM-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"/>
+        </Console>
+    </Appenders>
+
+    <loggers>
+        <!-- 过滤掉spring的一些无用的DEBUG信息，将其日志级别设置为INFO -->
+        <logger name="org.springframework" level="INFO"></logger>
+
+        <!-- 保留org.mybatis的DEBUG信息 -->
+        <logger name="org.mybatis" level="DEBUG"></logger>
+
+        <!-- 配置root日志级别为ALL，并将日志输出到多个appender -->
+        <root level="ALL">
+            <appender-ref ref="Console" />
+            <appender-ref ref="RollingFileInfo" />
+            <appender-ref ref="RollingFileWarn" />
+            <appender-ref ref="RollingFileError" />
+        </root>
+
+        <!-- 配置cn.timebusker.util包的日志级别为INFO，并输出到RollingFileInfo -->
+        <logger name="cn.timebusker.util" level="INFO">
+            <appender-ref ref="RollingFileInfo" />
+        </logger>
+    </loggers>
+
+</Configuration>

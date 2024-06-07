@@ -1,0 +1,1340 @@
+2024-06-06T11:04:40.647+08:00  INFO 11372 --- [main] o.e.h.H5Application                      : Starting H5Application using Java 17.0.11 with PID 11372 (E:\练习\stringboot\h5\target\classes started by Admin in E:\练习\stringboot)
+2024-06-06T11:04:40.655+08:00  INFO 11372 --- [main] o.e.h.H5Application                      : The following 1 profile is active: "dev"
+2024-06-06T11:04:41.465+08:00  INFO 11372 --- [main] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port 8080 (http)
+2024-06-06T11:04:41.470+08:00  INFO 11372 --- [main] o.a.c.c.AprLifecycleListener             : Loaded Apache Tomcat Native library [2.0.7] using APR version [1.7.4].
+2024-06-06T11:04:41.477+08:00  INFO 11372 --- [main] o.a.c.c.AprLifecycleListener             : OpenSSL successfully initialized [OpenSSL 3.0.13 30 Jan 2024]
+2024-06-06T11:04:41.484+08:00  INFO 11372 --- [main] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2024-06-06T11:04:41.484+08:00  INFO 11372 --- [main] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/10.1.24]
+2024-06-06T11:04:41.527+08:00  INFO 11372 --- [main] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2024-06-06T11:04:41.527+08:00  INFO 11372 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 846 ms
+2024-06-06T11:04:42.009+08:00  INFO 11372 --- [main] o.s.b.a.e.w.EndpointLinksResolver        : Exposing 1 endpoint beneath base path '/actuator'
+2024-06-06T11:04:42.068+08:00  INFO 11372 --- [main] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port 8080 (http) with context path '/'
+2024-06-06T11:04:42.081+08:00  INFO 11372 --- [main] o.e.h.H5Application                      : Started H5Application in 1.875 seconds (process running for 2.618)
+2024-06-06T11:04:42.281+08:00  INFO 11372 --- [RMI TCP Connection(2)-192.168.9.102] o.a.c.c.C.[.[.[/]                        : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-06T11:04:42.282+08:00  INFO 11372 --- [RMI TCP Connection(2)-192.168.9.102] o.s.w.s.DispatcherServlet                : Initializing Servlet 'dispatcherServlet'
+2024-06-06T11:04:42.283+08:00  INFO 11372 --- [RMI TCP Connection(2)-192.168.9.102] o.s.w.s.DispatcherServlet                : Completed initialization in 1 ms
+2024-06-06T11:06:45.178+08:00  INFO 19668 --- [main] o.e.h.H5Application                      : Starting H5Application using Java 17.0.11 with PID 19668 (E:\练习\stringboot\h5\target\classes started by Admin in E:\练习\stringboot)
+2024-06-06T11:06:45.184+08:00  INFO 19668 --- [main] o.e.h.H5Application                      : The following 1 profile is active: "dev"
+2024-06-06T11:06:45.970+08:00  INFO 19668 --- [main] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port 8080 (http)
+2024-06-06T11:06:45.974+08:00  INFO 19668 --- [main] o.a.c.c.AprLifecycleListener             : Loaded Apache Tomcat Native library [2.0.7] using APR version [1.7.4].
+2024-06-06T11:06:45.977+08:00  INFO 19668 --- [main] o.a.c.c.AprLifecycleListener             : OpenSSL successfully initialized [OpenSSL 3.0.13 30 Jan 2024]
+2024-06-06T11:06:45.984+08:00  INFO 19668 --- [main] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2024-06-06T11:06:45.984+08:00  INFO 19668 --- [main] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/10.1.24]
+2024-06-06T11:06:46.029+08:00  INFO 19668 --- [main] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2024-06-06T11:06:46.030+08:00  INFO 19668 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 820 ms
+2024-06-06T11:06:46.524+08:00  INFO 19668 --- [main] o.s.b.a.e.w.EndpointLinksResolver        : Exposing 1 endpoint beneath base path '/actuator'
+2024-06-06T11:06:46.562+08:00  INFO 19668 --- [main] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port 8080 (http) with context path '/'
+2024-06-06T11:06:46.575+08:00  INFO 19668 --- [main] o.e.h.H5Application                      : Started H5Application in 1.739 seconds (process running for 2.301)
+2024-06-06T11:06:46.969+08:00  INFO 19668 --- [RMI TCP Connection(2)-192.168.9.102] o.a.c.c.C.[.[.[/]                        : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-06T11:06:46.970+08:00  INFO 19668 --- [RMI TCP Connection(2)-192.168.9.102] o.s.w.s.DispatcherServlet                : Initializing Servlet 'dispatcherServlet'
+2024-06-06T11:06:46.971+08:00  INFO 19668 --- [RMI TCP Connection(2)-192.168.9.102] o.s.w.s.DispatcherServlet                : Completed initialization in 1 ms
+2024-06-06T11:07:01.333+08:00 ERROR 19668 --- [http-nio-8080-exec-1] o.e.h.c.TestController                   : oldA error
+2024-06-06T11:07:01.333+08:00  INFO 19668 --- [http-nio-8080-exec-1] o.e.h.c.TestController                   : oldA info
+2024-06-06T11:07:01.333+08:00  WARN 19668 --- [http-nio-8080-exec-1] o.e.h.c.TestController                   : oldA warn
+2024-06-06T11:14:05.056+08:00  INFO 7964 --- [main] o.e.h.H5Application                      : Starting H5Application using Java 17.0.11 with PID 7964 (E:\练习\stringboot\h5\target\classes started by Admin in E:\练习\stringboot)
+2024-06-06T11:14:05.062+08:00  INFO 7964 --- [main] o.e.h.H5Application                      : The following 1 profile is active: "dev"
+2024-06-06T11:14:05.843+08:00  INFO 7964 --- [main] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port 8080 (http)
+2024-06-06T11:14:05.846+08:00  INFO 7964 --- [main] o.a.c.c.AprLifecycleListener             : Loaded Apache Tomcat Native library [2.0.7] using APR version [1.7.4].
+2024-06-06T11:14:05.850+08:00  INFO 7964 --- [main] o.a.c.c.AprLifecycleListener             : OpenSSL successfully initialized [OpenSSL 3.0.13 30 Jan 2024]
+2024-06-06T11:14:05.857+08:00  INFO 7964 --- [main] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2024-06-06T11:14:05.857+08:00  INFO 7964 --- [main] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/10.1.24]
+2024-06-06T11:14:05.899+08:00  INFO 7964 --- [main] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2024-06-06T11:14:05.899+08:00  INFO 7964 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 809 ms
+2024-06-06T11:14:06.384+08:00  INFO 7964 --- [main] o.s.b.a.e.w.EndpointLinksResolver        : Exposing 1 endpoint beneath base path '/actuator'
+2024-06-06T11:14:06.423+08:00  INFO 7964 --- [main] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port 8080 (http) with context path '/'
+2024-06-06T11:14:06.436+08:00  INFO 7964 --- [main] o.e.h.H5Application                      : Started H5Application in 1.709 seconds (process running for 2.327)
+2024-06-06T11:14:06.990+08:00  INFO 7964 --- [RMI TCP Connection(2)-192.168.9.102] o.a.c.c.C.[.[.[/]                        : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-06T11:14:06.990+08:00  INFO 7964 --- [RMI TCP Connection(2)-192.168.9.102] o.s.w.s.DispatcherServlet                : Initializing Servlet 'dispatcherServlet'
+2024-06-06T11:14:06.991+08:00  INFO 7964 --- [RMI TCP Connection(2)-192.168.9.102] o.s.w.s.DispatcherServlet                : Completed initialization in 1 ms
+2024-06-06T11:15:29.272+08:00 ERROR 7964 --- [http-nio-8080-exec-1] o.e.h.c.TestController                   : oldA error
+2024-06-06T11:15:29.273+08:00  INFO 7964 --- [http-nio-8080-exec-1] o.e.h.c.TestController                   : oldA info
+2024-06-06T11:15:29.273+08:00  WARN 7964 --- [http-nio-8080-exec-1] o.e.h.c.TestController                   : oldA warn
+2024-06-06T14:33:06.613+08:00  INFO 21872 --- [main] o.e.h.H5Application                      : Starting H5Application using Java 17.0.11 with PID 21872 (E:\练习\stringboot\h5\target\classes started by Admin in E:\练习\stringboot)
+2024-06-06T14:33:06.619+08:00  INFO 21872 --- [main] o.e.h.H5Application                      : The following 1 profile is active: "dev"
+2024-06-06T14:33:07.738+08:00  INFO 21872 --- [main] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port 8080 (http)
+2024-06-06T14:33:07.741+08:00  INFO 21872 --- [main] o.a.c.c.AprLifecycleListener             : Loaded Apache Tomcat Native library [2.0.7] using APR version [1.7.4].
+2024-06-06T14:33:07.759+08:00  INFO 21872 --- [main] o.a.c.c.AprLifecycleListener             : OpenSSL successfully initialized [OpenSSL 3.0.13 30 Jan 2024]
+2024-06-06T14:33:07.766+08:00  INFO 21872 --- [main] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2024-06-06T14:33:07.767+08:00  INFO 21872 --- [main] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/10.1.24]
+2024-06-06T14:33:07.815+08:00  INFO 21872 --- [main] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2024-06-06T14:33:07.815+08:00  INFO 21872 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1171 ms
+2024-06-06T14:33:08.916+08:00  INFO 21872 --- [main] o.s.b.a.e.w.EndpointLinksResolver        : Exposing 1 endpoint beneath base path '/actuator'
+2024-06-06T14:33:08.969+08:00  INFO 21872 --- [main] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port 8080 (http) with context path '/'
+2024-06-06T14:33:08.982+08:00  INFO 21872 --- [main] o.e.h.H5Application                      : Started H5Application in 2.867 seconds (process running for 3.557)
+2024-06-06T14:33:09.168+08:00  INFO 21872 --- [RMI TCP Connection(2)-192.168.9.102] o.a.c.c.C.[.[.[/]                        : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-06T14:33:09.168+08:00  INFO 21872 --- [RMI TCP Connection(2)-192.168.9.102] o.s.w.s.DispatcherServlet                : Initializing Servlet 'dispatcherServlet'
+2024-06-06T14:33:09.170+08:00  INFO 21872 --- [RMI TCP Connection(2)-192.168.9.102] o.s.w.s.DispatcherServlet                : Completed initialization in 2 ms
+2024-06-06T14:34:26.349+08:00  INFO 10236 --- [main] o.e.h.H5Application                      : Starting H5Application using Java 17.0.11 with PID 10236 (E:\练习\stringboot\h5\target\classes started by Admin in E:\练习\stringboot)
+2024-06-06T14:34:26.355+08:00  INFO 10236 --- [main] o.e.h.H5Application                      : The following 1 profile is active: "dev"
+2024-06-06T14:34:27.373+08:00  INFO 10236 --- [main] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port 8080 (http)
+2024-06-06T14:34:27.377+08:00  INFO 10236 --- [main] o.a.c.c.AprLifecycleListener             : Loaded Apache Tomcat Native library [2.0.7] using APR version [1.7.4].
+2024-06-06T14:34:27.379+08:00  INFO 10236 --- [main] o.a.c.c.AprLifecycleListener             : OpenSSL successfully initialized [OpenSSL 3.0.13 30 Jan 2024]
+2024-06-06T14:34:27.387+08:00  INFO 10236 --- [main] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2024-06-06T14:34:27.387+08:00  INFO 10236 --- [main] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/10.1.24]
+2024-06-06T14:34:27.427+08:00  INFO 10236 --- [main] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2024-06-06T14:34:27.428+08:00  INFO 10236 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1049 ms
+2024-06-06T14:34:28.522+08:00  INFO 10236 --- [main] o.s.b.a.e.w.EndpointLinksResolver        : Exposing 1 endpoint beneath base path '/actuator'
+2024-06-06T14:34:28.578+08:00  INFO 10236 --- [main] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port 8080 (http) with context path '/'
+2024-06-06T14:34:28.592+08:00  INFO 10236 --- [main] o.e.h.H5Application                      : Started H5Application in 2.568 seconds (process running for 3.161)
+2024-06-06T14:34:29.117+08:00  INFO 10236 --- [RMI TCP Connection(2)-192.168.9.102] o.a.c.c.C.[.[.[/]                        : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-06T14:34:29.118+08:00  INFO 10236 --- [RMI TCP Connection(2)-192.168.9.102] o.s.w.s.DispatcherServlet                : Initializing Servlet 'dispatcherServlet'
+2024-06-06T14:34:29.119+08:00  INFO 10236 --- [RMI TCP Connection(2)-192.168.9.102] o.s.w.s.DispatcherServlet                : Completed initialization in 1 ms
+2024-06-06T14:35:37.119+08:00  INFO 10236 --- [http-nio-8080-exec-1] o.e.h.c.ApiAop                           : h5端===============================请求开始=============================
+2024-06-06T14:35:37.121+08:00  INFO 10236 --- [http-nio-8080-exec-1] o.e.h.c.ApiAop                           : h5端[请求IP]:0:0:0:0:0:0:0:1
+2024-06-06T14:35:37.121+08:00  INFO 10236 --- [http-nio-8080-exec-1] o.e.h.c.ApiAop                           : h5端[请求URL]:http://localhost:8080/, [请求方式]:GET
+2024-06-06T14:35:37.121+08:00  INFO 10236 --- [http-nio-8080-exec-1] o.e.h.c.ApiAop                           : h5端[请求类名]:org.example.h5.controller.TestController,[请求方法名]:test
+2024-06-06T14:35:37.153+08:00  INFO 10236 --- [http-nio-8080-exec-1] o.e.h.c.ApiAop                           : h5端[请求参数]:null
+2024-06-06T14:35:37.153+08:00 ERROR 10236 --- [http-nio-8080-exec-1] o.e.h.c.TestController                   : oldA error
+2024-06-06T14:35:37.153+08:00  INFO 10236 --- [http-nio-8080-exec-1] o.e.h.c.TestController                   : oldA info
+2024-06-06T14:35:37.153+08:00  WARN 10236 --- [http-nio-8080-exec-1] o.e.h.c.TestController                   : oldA warn
+2024-06-06T14:35:37.153+08:00  INFO 10236 --- [http-nio-8080-exec-1] o.e.h.c.ApiAop                           : h5端===============================返回内容=============================
+2024-06-06T14:35:37.153+08:00  INFO 10236 --- [http-nio-8080-exec-1] o.e.h.c.ApiAop                           : h5端result:"wodecehis"
+2024-06-06T14:35:37.154+08:00  INFO 10236 --- [http-nio-8080-exec-1] o.e.h.c.ApiAop                           : h5端===============================请求结束=============================
+2024-06-06T14:35:37.154+08:00  INFO 10236 --- [http-nio-8080-exec-1] o.e.h.c.ApiAop                           : h5端[请求耗时]:35毫秒
+2024-06-06T15:28:15.552+08:00  INFO 16524 --- [main] o.e.h.H5Application                      : Starting H5Application using Java 17.0.11 with PID 16524 (E:\练习\stringboot\h5\target\classes started by Admin in E:\练习\stringboot)
+2024-06-06T15:28:15.557+08:00  INFO 16524 --- [main] o.e.h.H5Application                      : The following 1 profile is active: "dev"
+2024-06-06T15:28:16.227+08:00  WARN 16524 --- [main] o.m.s.m.ClassPathMapperScanner           : No MyBatis mapper was found in '[org.example.h5]' package. Please check your configuration.
+2024-06-06T15:28:16.712+08:00  INFO 16524 --- [main] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port 8080 (http)
+2024-06-06T15:28:16.717+08:00  INFO 16524 --- [main] o.a.c.c.AprLifecycleListener             : Loaded Apache Tomcat Native library [2.0.7] using APR version [1.7.4].
+2024-06-06T15:28:16.720+08:00  INFO 16524 --- [main] o.a.c.c.AprLifecycleListener             : OpenSSL successfully initialized [OpenSSL 3.0.13 30 Jan 2024]
+2024-06-06T15:28:16.727+08:00  INFO 16524 --- [main] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2024-06-06T15:28:16.728+08:00  INFO 16524 --- [main] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/10.1.24]
+2024-06-06T15:28:16.780+08:00  INFO 16524 --- [main] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2024-06-06T15:28:16.780+08:00  INFO 16524 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1197 ms
+2024-06-06T15:28:18.195+08:00  INFO 16524 --- [main] o.s.b.a.e.w.EndpointLinksResolver        : Exposing 1 endpoint beneath base path '/actuator'
+2024-06-06T15:28:18.255+08:00  INFO 16524 --- [main] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port 8080 (http) with context path '/'
+2024-06-06T15:28:18.269+08:00  INFO 16524 --- [main] o.e.h.H5Application                      : Started H5Application in 3.03 seconds (process running for 3.601)
+2024-06-06T15:28:18.274+08:00  INFO 16524 --- [main] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-06-06T15:28:18.289+08:00 ERROR 16524 --- [main] o.s.b.SpringApplication                  : Application run failed
+
+org.springframework.beans.factory.BeanNotOfRequiredTypeException: Bean named 'ddlApplicationRunner' is expected to be of type 'org.springframework.boot.Runner' but was actually of type 'org.springframework.beans.factory.support.NullBean'
+	at org.springframework.beans.factory.support.AbstractBeanFactory.adaptBeanInstance(AbstractBeanFactory.java:422) ~[spring-beans-6.1.8.jar:6.1.8]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:403) ~[spring-beans-6.1.8.jar:6.1.8]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:205) ~[spring-beans-6.1.8.jar:6.1.8]
+	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:770) [spring-boot-3.3.0.jar:3.3.0]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:342) [spring-boot-3.3.0.jar:3.3.0]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1363) [spring-boot-3.3.0.jar:3.3.0]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1352) [spring-boot-3.3.0.jar:3.3.0]
+	at org.example.h5.H5Application.main(H5Application.java:10) [classes/:?]
+
+2024-06-06T15:28:18.306+08:00  INFO 16524 --- [main] c.a.d.p.DruidDataSource                  : {dataSource-0} closing ...
+2024-06-06T15:28:38.942+08:00  INFO 20216 --- [main] o.e.h.H5Application                      : Starting H5Application using Java 17.0.11 with PID 20216 (E:\练习\stringboot\h5\target\classes started by Admin in E:\练习\stringboot)
+2024-06-06T15:28:38.948+08:00  INFO 20216 --- [main] o.e.h.H5Application                      : The following 1 profile is active: "dev"
+2024-06-06T15:28:39.590+08:00  WARN 20216 --- [main] o.m.s.m.ClassPathMapperScanner           : No MyBatis mapper was found in '[org.example.h5]' package. Please check your configuration.
+2024-06-06T15:28:40.064+08:00  INFO 20216 --- [main] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port 8080 (http)
+2024-06-06T15:28:40.067+08:00  INFO 20216 --- [main] o.a.c.c.AprLifecycleListener             : Loaded Apache Tomcat Native library [2.0.7] using APR version [1.7.4].
+2024-06-06T15:28:40.070+08:00  INFO 20216 --- [main] o.a.c.c.AprLifecycleListener             : OpenSSL successfully initialized [OpenSSL 3.0.13 30 Jan 2024]
+2024-06-06T15:28:40.076+08:00  INFO 20216 --- [main] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2024-06-06T15:28:40.076+08:00  INFO 20216 --- [main] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/10.1.24]
+2024-06-06T15:28:40.128+08:00  INFO 20216 --- [main] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2024-06-06T15:28:40.128+08:00  INFO 20216 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1155 ms
+2024-06-06T15:28:41.510+08:00  INFO 20216 --- [main] o.s.b.a.e.w.EndpointLinksResolver        : Exposing 1 endpoint beneath base path '/actuator'
+2024-06-06T15:28:41.570+08:00  INFO 20216 --- [main] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port 8080 (http) with context path '/'
+2024-06-06T15:28:41.584+08:00  INFO 20216 --- [main] o.e.h.H5Application                      : Started H5Application in 2.964 seconds (process running for 3.563)
+2024-06-06T15:28:41.589+08:00  INFO 20216 --- [main] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-06-06T15:28:41.600+08:00 ERROR 20216 --- [main] o.s.b.SpringApplication                  : Application run failed
+
+org.springframework.beans.factory.BeanNotOfRequiredTypeException: Bean named 'ddlApplicationRunner' is expected to be of type 'org.springframework.boot.Runner' but was actually of type 'org.springframework.beans.factory.support.NullBean'
+	at org.springframework.beans.factory.support.AbstractBeanFactory.adaptBeanInstance(AbstractBeanFactory.java:422) ~[spring-beans-6.1.8.jar:6.1.8]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:403) ~[spring-beans-6.1.8.jar:6.1.8]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:205) ~[spring-beans-6.1.8.jar:6.1.8]
+	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:770) [spring-boot-3.3.0.jar:3.3.0]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:342) [spring-boot-3.3.0.jar:3.3.0]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1363) [spring-boot-3.3.0.jar:3.3.0]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1352) [spring-boot-3.3.0.jar:3.3.0]
+	at org.example.h5.H5Application.main(H5Application.java:10) [classes/:?]
+
+2024-06-06T15:28:41.616+08:00  INFO 20216 --- [main] c.a.d.p.DruidDataSource                  : {dataSource-0} closing ...
+2024-06-06T15:29:22.554+08:00  INFO 17236 --- [main] o.e.h.H5Application                      : Starting H5Application using Java 17.0.11 with PID 17236 (E:\练习\stringboot\h5\target\classes started by Admin in E:\练习\stringboot)
+2024-06-06T15:29:22.560+08:00  INFO 17236 --- [main] o.e.h.H5Application                      : The following 1 profile is active: "dev"
+2024-06-06T15:29:23.255+08:00  WARN 17236 --- [main] o.m.s.m.ClassPathMapperScanner           : No MyBatis mapper was found in '[org.example.h5]' package. Please check your configuration.
+2024-06-06T15:29:23.773+08:00  INFO 17236 --- [main] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port 8080 (http)
+2024-06-06T15:29:23.779+08:00  INFO 17236 --- [main] o.a.c.c.AprLifecycleListener             : Loaded Apache Tomcat Native library [2.0.7] using APR version [1.7.4].
+2024-06-06T15:29:23.783+08:00  INFO 17236 --- [main] o.a.c.c.AprLifecycleListener             : OpenSSL successfully initialized [OpenSSL 3.0.13 30 Jan 2024]
+2024-06-06T15:29:23.789+08:00  INFO 17236 --- [main] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2024-06-06T15:29:23.790+08:00  INFO 17236 --- [main] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/10.1.24]
+2024-06-06T15:29:23.836+08:00  INFO 17236 --- [main] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2024-06-06T15:29:23.836+08:00  INFO 17236 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1243 ms
+2024-06-06T15:29:25.300+08:00  INFO 17236 --- [main] o.s.b.a.e.w.EndpointLinksResolver        : Exposing 1 endpoint beneath base path '/actuator'
+2024-06-06T15:29:25.366+08:00  INFO 17236 --- [main] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port 8080 (http) with context path '/'
+2024-06-06T15:29:25.380+08:00  INFO 17236 --- [main] o.e.h.H5Application                      : Started H5Application in 3.194 seconds (process running for 4.463)
+2024-06-06T15:29:25.386+08:00  INFO 17236 --- [main] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-06-06T15:29:25.398+08:00 ERROR 17236 --- [main] o.s.b.SpringApplication                  : Application run failed
+
+org.springframework.beans.factory.BeanNotOfRequiredTypeException: Bean named 'ddlApplicationRunner' is expected to be of type 'org.springframework.boot.Runner' but was actually of type 'org.springframework.beans.factory.support.NullBean'
+	at org.springframework.beans.factory.support.AbstractBeanFactory.adaptBeanInstance(AbstractBeanFactory.java:422) ~[spring-beans-6.1.8.jar:6.1.8]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:403) ~[spring-beans-6.1.8.jar:6.1.8]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:205) ~[spring-beans-6.1.8.jar:6.1.8]
+	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:770) [spring-boot-3.3.0.jar:3.3.0]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:342) [spring-boot-3.3.0.jar:3.3.0]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1363) [spring-boot-3.3.0.jar:3.3.0]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1352) [spring-boot-3.3.0.jar:3.3.0]
+	at org.example.h5.H5Application.main(H5Application.java:10) [classes/:?]
+
+2024-06-06T15:29:25.416+08:00  INFO 17236 --- [main] c.a.d.p.DruidDataSource                  : {dataSource-0} closing ...
+2024-06-06T15:31:40.214+08:00  INFO 20304 --- [main] o.e.h.H5Application                      : Starting H5Application using Java 17.0.11 with PID 20304 (E:\练习\stringboot\h5\target\classes started by Admin in E:\练习\stringboot)
+2024-06-06T15:31:40.220+08:00  INFO 20304 --- [main] o.e.h.H5Application                      : The following 1 profile is active: "dev"
+2024-06-06T15:31:40.852+08:00  WARN 20304 --- [main] o.m.s.m.ClassPathMapperScanner           : No MyBatis mapper was found in '[org.example.h5]' package. Please check your configuration.
+2024-06-06T15:31:41.326+08:00  INFO 20304 --- [main] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port 8080 (http)
+2024-06-06T15:31:41.330+08:00  INFO 20304 --- [main] o.a.c.c.AprLifecycleListener             : Loaded Apache Tomcat Native library [2.0.7] using APR version [1.7.4].
+2024-06-06T15:31:41.333+08:00  INFO 20304 --- [main] o.a.c.c.AprLifecycleListener             : OpenSSL successfully initialized [OpenSSL 3.0.13 30 Jan 2024]
+2024-06-06T15:31:41.340+08:00  INFO 20304 --- [main] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2024-06-06T15:31:41.340+08:00  INFO 20304 --- [main] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/10.1.24]
+2024-06-06T15:31:41.384+08:00  INFO 20304 --- [main] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2024-06-06T15:31:41.385+08:00  INFO 20304 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1140 ms
+2024-06-06T15:31:42.092+08:00  WARN 20304 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception with message: Failed to determine a suitable driver class
+2024-06-06T15:31:42.094+08:00  INFO 20304 --- [main] o.a.c.c.StandardService                  : Stopping service [Tomcat]
+2024-06-06T15:31:42.119+08:00  INFO 20304 --- [main] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-06-06T15:31:42.130+08:00 ERROR 20304 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to configure a DataSource: 'url' attribute is not specified and no embedded datasource could be configured.
+
+Reason: Failed to determine a suitable driver class
+
+
+Action:
+
+Consider the following:
+	If you want an embedded database (H2, HSQL or Derby), please put it on the classpath.
+	If you have database settings to be loaded from a particular profile you may need to activate it (the profiles dev are currently active).
+
+2024-06-06T15:32:56.325+08:00  INFO 27016 --- [main] o.e.h.H5Application                      : Starting H5Application using Java 17.0.11 with PID 27016 (E:\练习\stringboot\h5\target\classes started by Admin in E:\练习\stringboot)
+2024-06-06T15:32:56.331+08:00  INFO 27016 --- [main] o.e.h.H5Application                      : The following 1 profile is active: "dev"
+2024-06-06T15:32:56.983+08:00  WARN 27016 --- [main] o.m.s.m.ClassPathMapperScanner           : No MyBatis mapper was found in '[org.example.h5]' package. Please check your configuration.
+2024-06-06T15:32:57.481+08:00  INFO 27016 --- [main] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port 8080 (http)
+2024-06-06T15:32:57.485+08:00  INFO 27016 --- [main] o.a.c.c.AprLifecycleListener             : Loaded Apache Tomcat Native library [2.0.7] using APR version [1.7.4].
+2024-06-06T15:32:57.489+08:00  INFO 27016 --- [main] o.a.c.c.AprLifecycleListener             : OpenSSL successfully initialized [OpenSSL 3.0.13 30 Jan 2024]
+2024-06-06T15:32:57.496+08:00  INFO 27016 --- [main] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2024-06-06T15:32:57.496+08:00  INFO 27016 --- [main] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/10.1.24]
+2024-06-06T15:32:57.551+08:00  INFO 27016 --- [main] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2024-06-06T15:32:57.551+08:00  INFO 27016 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1194 ms
+2024-06-06T15:32:58.954+08:00  INFO 27016 --- [main] o.s.b.a.e.w.EndpointLinksResolver        : Exposing 1 endpoint beneath base path '/actuator'
+2024-06-06T15:32:59.013+08:00  INFO 27016 --- [main] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port 8080 (http) with context path '/'
+2024-06-06T15:32:59.027+08:00  INFO 27016 --- [main] o.e.h.H5Application                      : Started H5Application in 3.021 seconds (process running for 3.584)
+2024-06-06T15:32:59.032+08:00  INFO 27016 --- [main] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-06-06T15:32:59.042+08:00 ERROR 27016 --- [main] o.s.b.SpringApplication                  : Application run failed
+
+org.springframework.beans.factory.BeanNotOfRequiredTypeException: Bean named 'ddlApplicationRunner' is expected to be of type 'org.springframework.boot.Runner' but was actually of type 'org.springframework.beans.factory.support.NullBean'
+	at org.springframework.beans.factory.support.AbstractBeanFactory.adaptBeanInstance(AbstractBeanFactory.java:422) ~[spring-beans-6.1.8.jar:6.1.8]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:403) ~[spring-beans-6.1.8.jar:6.1.8]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:205) ~[spring-beans-6.1.8.jar:6.1.8]
+	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:770) [spring-boot-3.3.0.jar:3.3.0]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:342) [spring-boot-3.3.0.jar:3.3.0]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1363) [spring-boot-3.3.0.jar:3.3.0]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1352) [spring-boot-3.3.0.jar:3.3.0]
+	at org.example.h5.H5Application.main(H5Application.java:10) [classes/:?]
+
+2024-06-06T15:32:59.059+08:00  INFO 27016 --- [main] c.a.d.p.DruidDataSource                  : {dataSource-0} closing ...
+2024-06-06T15:33:58.499+08:00  INFO 31688 --- [main] o.e.h.H5Application                      : Starting H5Application using Java 17.0.11 with PID 31688 (E:\练习\stringboot\h5\target\classes started by Admin in E:\练习\stringboot)
+2024-06-06T15:33:58.505+08:00  INFO 31688 --- [main] o.e.h.H5Application                      : The following 1 profile is active: "dev"
+2024-06-06T15:33:59.143+08:00  WARN 31688 --- [main] o.m.s.m.ClassPathMapperScanner           : No MyBatis mapper was found in '[org.example.h5]' package. Please check your configuration.
+2024-06-06T15:33:59.611+08:00  INFO 31688 --- [main] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port 8080 (http)
+2024-06-06T15:33:59.615+08:00  INFO 31688 --- [main] o.a.c.c.AprLifecycleListener             : Loaded Apache Tomcat Native library [2.0.7] using APR version [1.7.4].
+2024-06-06T15:33:59.618+08:00  INFO 31688 --- [main] o.a.c.c.AprLifecycleListener             : OpenSSL successfully initialized [OpenSSL 3.0.13 30 Jan 2024]
+2024-06-06T15:33:59.624+08:00  INFO 31688 --- [main] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2024-06-06T15:33:59.624+08:00  INFO 31688 --- [main] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/10.1.24]
+2024-06-06T15:33:59.675+08:00  INFO 31688 --- [main] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2024-06-06T15:33:59.675+08:00  INFO 31688 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1145 ms
+2024-06-06T15:34:01.051+08:00  INFO 31688 --- [main] o.s.b.a.e.w.EndpointLinksResolver        : Exposing 1 endpoint beneath base path '/actuator'
+2024-06-06T15:34:01.113+08:00  INFO 31688 --- [main] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port 8080 (http) with context path '/'
+2024-06-06T15:34:01.127+08:00  INFO 31688 --- [main] o.e.h.H5Application                      : Started H5Application in 2.937 seconds (process running for 3.517)
+2024-06-06T15:34:01.132+08:00  INFO 31688 --- [main] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-06-06T15:34:01.148+08:00 ERROR 31688 --- [main] o.s.b.SpringApplication                  : Application run failed
+
+org.springframework.beans.factory.BeanNotOfRequiredTypeException: Bean named 'ddlApplicationRunner' is expected to be of type 'org.springframework.boot.Runner' but was actually of type 'org.springframework.beans.factory.support.NullBean'
+	at org.springframework.beans.factory.support.AbstractBeanFactory.adaptBeanInstance(AbstractBeanFactory.java:422) ~[spring-beans-6.1.8.jar:6.1.8]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:403) ~[spring-beans-6.1.8.jar:6.1.8]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:205) ~[spring-beans-6.1.8.jar:6.1.8]
+	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:770) [spring-boot-3.3.0.jar:3.3.0]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:342) [spring-boot-3.3.0.jar:3.3.0]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1363) [spring-boot-3.3.0.jar:3.3.0]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1352) [spring-boot-3.3.0.jar:3.3.0]
+	at org.example.h5.H5Application.main(H5Application.java:10) [classes/:?]
+
+2024-06-06T15:34:01.163+08:00  INFO 31688 --- [main] c.a.d.p.DruidDataSource                  : {dataSource-0} closing ...
+2024-06-06T15:35:11.616+08:00  INFO 27188 --- [main] o.e.h.H5Application                      : Starting H5Application using Java 17.0.11 with PID 27188 (E:\练习\stringboot\h5\target\classes started by Admin in E:\练习\stringboot)
+2024-06-06T15:35:11.622+08:00  INFO 27188 --- [main] o.e.h.H5Application                      : The following 1 profile is active: "dev"
+2024-06-06T15:35:12.256+08:00  WARN 27188 --- [main] o.m.s.m.ClassPathMapperScanner           : No MyBatis mapper was found in '[org.example.h5]' package. Please check your configuration.
+2024-06-06T15:35:12.721+08:00  INFO 27188 --- [main] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port 8080 (http)
+2024-06-06T15:35:12.725+08:00  INFO 27188 --- [main] o.a.c.c.AprLifecycleListener             : Loaded Apache Tomcat Native library [2.0.7] using APR version [1.7.4].
+2024-06-06T15:35:12.728+08:00  INFO 27188 --- [main] o.a.c.c.AprLifecycleListener             : OpenSSL successfully initialized [OpenSSL 3.0.13 30 Jan 2024]
+2024-06-06T15:35:12.734+08:00  INFO 27188 --- [main] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2024-06-06T15:35:12.734+08:00  INFO 27188 --- [main] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/10.1.24]
+2024-06-06T15:35:12.785+08:00  INFO 27188 --- [main] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2024-06-06T15:35:12.786+08:00  INFO 27188 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1140 ms
+2024-06-06T15:35:13.487+08:00  WARN 27188 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception with message: Failed to determine a suitable driver class
+2024-06-06T15:35:13.490+08:00  INFO 27188 --- [main] o.a.c.c.StandardService                  : Stopping service [Tomcat]
+2024-06-06T15:35:13.516+08:00  INFO 27188 --- [main] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-06-06T15:35:13.527+08:00 ERROR 27188 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to configure a DataSource: 'url' attribute is not specified and no embedded datasource could be configured.
+
+Reason: Failed to determine a suitable driver class
+
+
+Action:
+
+Consider the following:
+	If you want an embedded database (H2, HSQL or Derby), please put it on the classpath.
+	If you have database settings to be loaded from a particular profile you may need to activate it (the profiles dev are currently active).
+
+2024-06-06T15:35:34.085+08:00  INFO 30796 --- [main] o.e.h.H5Application                      : Starting H5Application using Java 17.0.11 with PID 30796 (E:\练习\stringboot\h5\target\classes started by Admin in E:\练习\stringboot)
+2024-06-06T15:35:34.091+08:00  INFO 30796 --- [main] o.e.h.H5Application                      : The following 1 profile is active: "dev"
+2024-06-06T15:35:34.722+08:00  WARN 30796 --- [main] o.m.s.m.ClassPathMapperScanner           : No MyBatis mapper was found in '[org.example.h5]' package. Please check your configuration.
+2024-06-06T15:35:35.090+08:00  INFO 30796 --- [main] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port 8080 (http)
+2024-06-06T15:35:35.093+08:00  INFO 30796 --- [main] o.a.c.c.AprLifecycleListener             : Loaded Apache Tomcat Native library [2.0.7] using APR version [1.7.4].
+2024-06-06T15:35:35.097+08:00  INFO 30796 --- [main] o.a.c.c.AprLifecycleListener             : OpenSSL successfully initialized [OpenSSL 3.0.13 30 Jan 2024]
+2024-06-06T15:35:35.103+08:00  INFO 30796 --- [main] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2024-06-06T15:35:35.104+08:00  INFO 30796 --- [main] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/10.1.24]
+2024-06-06T15:35:35.147+08:00  INFO 30796 --- [main] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2024-06-06T15:35:35.148+08:00  INFO 30796 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1033 ms
+2024-06-06T15:35:35.588+08:00  WARN 30796 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception with message: Failed to determine a suitable driver class
+2024-06-06T15:35:35.590+08:00  INFO 30796 --- [main] o.a.c.c.StandardService                  : Stopping service [Tomcat]
+2024-06-06T15:35:35.615+08:00  INFO 30796 --- [main] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-06-06T15:35:35.626+08:00 ERROR 30796 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to configure a DataSource: 'url' attribute is not specified and no embedded datasource could be configured.
+
+Reason: Failed to determine a suitable driver class
+
+
+Action:
+
+Consider the following:
+	If you want an embedded database (H2, HSQL or Derby), please put it on the classpath.
+	If you have database settings to be loaded from a particular profile you may need to activate it (the profiles dev are currently active).
+
+2024-06-06T15:35:43.330+08:00  INFO 4268 --- [main] o.e.h.H5Application                      : Starting H5Application using Java 17.0.11 with PID 4268 (E:\练习\stringboot\h5\target\classes started by Admin in E:\练习\stringboot)
+2024-06-06T15:35:43.336+08:00  INFO 4268 --- [main] o.e.h.H5Application                      : The following 1 profile is active: "dev"
+2024-06-06T15:35:43.970+08:00  WARN 4268 --- [main] o.m.s.m.ClassPathMapperScanner           : No MyBatis mapper was found in '[org.example.h5]' package. Please check your configuration.
+2024-06-06T15:35:44.437+08:00  INFO 4268 --- [main] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port 8080 (http)
+2024-06-06T15:35:44.440+08:00  INFO 4268 --- [main] o.a.c.c.AprLifecycleListener             : Loaded Apache Tomcat Native library [2.0.7] using APR version [1.7.4].
+2024-06-06T15:35:44.443+08:00  INFO 4268 --- [main] o.a.c.c.AprLifecycleListener             : OpenSSL successfully initialized [OpenSSL 3.0.13 30 Jan 2024]
+2024-06-06T15:35:44.449+08:00  INFO 4268 --- [main] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2024-06-06T15:35:44.450+08:00  INFO 4268 --- [main] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/10.1.24]
+2024-06-06T15:35:44.500+08:00  INFO 4268 --- [main] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2024-06-06T15:35:44.500+08:00  INFO 4268 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1139 ms
+2024-06-06T15:35:45.203+08:00  WARN 4268 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception with message: Failed to determine a suitable driver class
+2024-06-06T15:35:45.206+08:00  INFO 4268 --- [main] o.a.c.c.StandardService                  : Stopping service [Tomcat]
+2024-06-06T15:35:45.231+08:00  INFO 4268 --- [main] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-06-06T15:35:45.242+08:00 ERROR 4268 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to configure a DataSource: 'url' attribute is not specified and no embedded datasource could be configured.
+
+Reason: Failed to determine a suitable driver class
+
+
+Action:
+
+Consider the following:
+	If you want an embedded database (H2, HSQL or Derby), please put it on the classpath.
+	If you have database settings to be loaded from a particular profile you may need to activate it (the profiles dev are currently active).
+
+2024-06-06T15:36:40.708+08:00  INFO 30848 --- [main] o.e.h.H5Application                      : Starting H5Application using Java 17.0.11 with PID 30848 (E:\练习\stringboot\h5\target\classes started by Admin in E:\练习\stringboot)
+2024-06-06T15:36:40.713+08:00  INFO 30848 --- [main] o.e.h.H5Application                      : The following 1 profile is active: "dev"
+2024-06-06T15:36:41.406+08:00  WARN 30848 --- [main] o.m.s.m.ClassPathMapperScanner           : No MyBatis mapper was found in '[org.example.h5]' package. Please check your configuration.
+2024-06-06T15:36:41.889+08:00  INFO 30848 --- [main] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port 8080 (http)
+2024-06-06T15:36:41.894+08:00  INFO 30848 --- [main] o.a.c.c.AprLifecycleListener             : Loaded Apache Tomcat Native library [2.0.7] using APR version [1.7.4].
+2024-06-06T15:36:41.897+08:00  INFO 30848 --- [main] o.a.c.c.AprLifecycleListener             : OpenSSL successfully initialized [OpenSSL 3.0.13 30 Jan 2024]
+2024-06-06T15:36:41.902+08:00  INFO 30848 --- [main] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2024-06-06T15:36:41.903+08:00  INFO 30848 --- [main] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/10.1.24]
+2024-06-06T15:36:41.978+08:00  INFO 30848 --- [main] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2024-06-06T15:36:41.979+08:00  INFO 30848 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1240 ms
+2024-06-06T15:36:43.352+08:00  INFO 30848 --- [main] o.s.b.a.e.w.EndpointLinksResolver        : Exposing 1 endpoint beneath base path '/actuator'
+2024-06-06T15:36:43.419+08:00  INFO 30848 --- [main] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port 8080 (http) with context path '/'
+2024-06-06T15:36:43.433+08:00  INFO 30848 --- [main] o.e.h.H5Application                      : Started H5Application in 3.039 seconds (process running for 3.655)
+2024-06-06T15:36:43.438+08:00  INFO 30848 --- [main] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-06-06T15:36:43.448+08:00 ERROR 30848 --- [main] o.s.b.SpringApplication                  : Application run failed
+
+org.springframework.beans.factory.BeanNotOfRequiredTypeException: Bean named 'ddlApplicationRunner' is expected to be of type 'org.springframework.boot.Runner' but was actually of type 'org.springframework.beans.factory.support.NullBean'
+	at org.springframework.beans.factory.support.AbstractBeanFactory.adaptBeanInstance(AbstractBeanFactory.java:422) ~[spring-beans-6.1.8.jar:6.1.8]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:403) ~[spring-beans-6.1.8.jar:6.1.8]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:205) ~[spring-beans-6.1.8.jar:6.1.8]
+	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:770) [spring-boot-3.3.0.jar:3.3.0]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:342) [spring-boot-3.3.0.jar:3.3.0]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1363) [spring-boot-3.3.0.jar:3.3.0]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1352) [spring-boot-3.3.0.jar:3.3.0]
+	at org.example.h5.H5Application.main(H5Application.java:10) [classes/:?]
+
+2024-06-06T15:36:43.464+08:00  INFO 30848 --- [main] c.a.d.p.DruidDataSource                  : {dataSource-0} closing ...
+2024-06-06T15:36:55.677+08:00  INFO 23124 --- [main] o.e.h.H5Application                      : Starting H5Application using Java 17.0.11 with PID 23124 (E:\练习\stringboot\h5\target\classes started by Admin in E:\练习\stringboot)
+2024-06-06T15:36:55.682+08:00  INFO 23124 --- [main] o.e.h.H5Application                      : The following 1 profile is active: "dev"
+2024-06-06T15:36:56.319+08:00  WARN 23124 --- [main] o.m.s.m.ClassPathMapperScanner           : No MyBatis mapper was found in '[org.example.h5]' package. Please check your configuration.
+2024-06-06T15:36:56.788+08:00  INFO 23124 --- [main] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port 8080 (http)
+2024-06-06T15:36:56.792+08:00  INFO 23124 --- [main] o.a.c.c.AprLifecycleListener             : Loaded Apache Tomcat Native library [2.0.7] using APR version [1.7.4].
+2024-06-06T15:36:56.795+08:00  INFO 23124 --- [main] o.a.c.c.AprLifecycleListener             : OpenSSL successfully initialized [OpenSSL 3.0.13 30 Jan 2024]
+2024-06-06T15:36:56.800+08:00  INFO 23124 --- [main] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2024-06-06T15:36:56.801+08:00  INFO 23124 --- [main] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/10.1.24]
+2024-06-06T15:36:56.850+08:00  INFO 23124 --- [main] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2024-06-06T15:36:56.851+08:00  INFO 23124 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1144 ms
+2024-06-06T15:36:58.117+08:00  INFO 23124 --- [main] o.s.b.a.e.w.EndpointLinksResolver        : Exposing 1 endpoint beneath base path '/actuator'
+2024-06-06T15:36:58.178+08:00  INFO 23124 --- [main] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port 8080 (http) with context path '/'
+2024-06-06T15:36:58.192+08:00  INFO 23124 --- [main] o.e.h.H5Application                      : Started H5Application in 2.825 seconds (process running for 3.397)
+2024-06-06T15:36:58.197+08:00  INFO 23124 --- [main] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-06-06T15:36:58.207+08:00 ERROR 23124 --- [main] o.s.b.SpringApplication                  : Application run failed
+
+org.springframework.beans.factory.BeanNotOfRequiredTypeException: Bean named 'ddlApplicationRunner' is expected to be of type 'org.springframework.boot.Runner' but was actually of type 'org.springframework.beans.factory.support.NullBean'
+	at org.springframework.beans.factory.support.AbstractBeanFactory.adaptBeanInstance(AbstractBeanFactory.java:422) ~[spring-beans-6.1.8.jar:6.1.8]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:403) ~[spring-beans-6.1.8.jar:6.1.8]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:205) ~[spring-beans-6.1.8.jar:6.1.8]
+	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:770) [spring-boot-3.3.0.jar:3.3.0]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:342) [spring-boot-3.3.0.jar:3.3.0]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1363) [spring-boot-3.3.0.jar:3.3.0]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1352) [spring-boot-3.3.0.jar:3.3.0]
+	at org.example.h5.H5Application.main(H5Application.java:10) [classes/:?]
+
+2024-06-06T15:37:26.905+08:00  INFO 19028 --- [main] o.e.h.H5Application                      : Starting H5Application using Java 17.0.11 with PID 19028 (E:\练习\stringboot\h5\target\classes started by Admin in E:\练习\stringboot)
+2024-06-06T15:37:26.911+08:00  INFO 19028 --- [main] o.e.h.H5Application                      : The following 1 profile is active: "dev"
+2024-06-06T15:37:27.942+08:00  INFO 19028 --- [main] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port 8080 (http)
+2024-06-06T15:37:27.945+08:00  INFO 19028 --- [main] o.a.c.c.AprLifecycleListener             : Loaded Apache Tomcat Native library [2.0.7] using APR version [1.7.4].
+2024-06-06T15:37:27.948+08:00  INFO 19028 --- [main] o.a.c.c.AprLifecycleListener             : OpenSSL successfully initialized [OpenSSL 3.0.13 30 Jan 2024]
+2024-06-06T15:37:27.956+08:00  INFO 19028 --- [main] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2024-06-06T15:37:27.956+08:00  INFO 19028 --- [main] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/10.1.24]
+2024-06-06T15:37:27.996+08:00  INFO 19028 --- [main] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2024-06-06T15:37:27.997+08:00  INFO 19028 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1058 ms
+2024-06-06T15:37:29.030+08:00  INFO 19028 --- [main] o.s.b.a.e.w.EndpointLinksResolver        : Exposing 1 endpoint beneath base path '/actuator'
+2024-06-06T15:37:29.076+08:00  INFO 19028 --- [main] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port 8080 (http) with context path '/'
+2024-06-06T15:37:29.089+08:00  INFO 19028 --- [main] o.e.h.H5Application                      : Started H5Application in 2.52 seconds (process running for 3.106)
+2024-06-06T15:37:29.690+08:00  INFO 19028 --- [RMI TCP Connection(2)-192.168.9.102] o.a.c.c.C.[.[.[/]                        : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-06T15:37:29.690+08:00  INFO 19028 --- [RMI TCP Connection(2)-192.168.9.102] o.s.w.s.DispatcherServlet                : Initializing Servlet 'dispatcherServlet'
+2024-06-06T15:37:29.691+08:00  INFO 19028 --- [RMI TCP Connection(2)-192.168.9.102] o.s.w.s.DispatcherServlet                : Completed initialization in 1 ms
+2024-06-06T15:37:39.150+08:00  INFO 19028 --- [http-nio-8080-exec-1] o.e.h.c.ApiAop                           : h5端===============================请求开始=============================
+2024-06-06T15:37:39.152+08:00  INFO 19028 --- [http-nio-8080-exec-1] o.e.h.c.ApiAop                           : h5端[请求IP]:0:0:0:0:0:0:0:1
+2024-06-06T15:37:39.153+08:00  INFO 19028 --- [http-nio-8080-exec-1] o.e.h.c.ApiAop                           : h5端[请求URL]:http://localhost:8080/, [请求方式]:GET
+2024-06-06T15:37:39.153+08:00  INFO 19028 --- [http-nio-8080-exec-1] o.e.h.c.ApiAop                           : h5端[请求类名]:org.example.h5.controller.TestController,[请求方法名]:test
+2024-06-06T15:37:39.181+08:00  INFO 19028 --- [http-nio-8080-exec-1] o.e.h.c.ApiAop                           : h5端[请求参数]:null
+2024-06-06T15:37:39.181+08:00 ERROR 19028 --- [http-nio-8080-exec-1] o.e.h.c.TestController                   : oldA error
+2024-06-06T15:37:39.181+08:00  INFO 19028 --- [http-nio-8080-exec-1] o.e.h.c.TestController                   : oldA info
+2024-06-06T15:37:39.181+08:00  WARN 19028 --- [http-nio-8080-exec-1] o.e.h.c.TestController                   : oldA warn
+2024-06-06T15:37:39.181+08:00  INFO 19028 --- [http-nio-8080-exec-1] o.e.h.c.ApiAop                           : h5端===============================返回内容=============================
+2024-06-06T15:37:39.181+08:00  INFO 19028 --- [http-nio-8080-exec-1] o.e.h.c.ApiAop                           : h5端result:"wodecehis"
+2024-06-06T15:37:39.181+08:00  INFO 19028 --- [http-nio-8080-exec-1] o.e.h.c.ApiAop                           : h5端===============================请求结束=============================
+2024-06-06T15:37:39.181+08:00  INFO 19028 --- [http-nio-8080-exec-1] o.e.h.c.ApiAop                           : h5端[请求耗时]:32毫秒
+2024-06-06T15:38:19.668+08:00  INFO 25896 --- [main] o.e.h.H5Application                      : Starting H5Application using Java 17.0.11 with PID 25896 (E:\练习\stringboot\h5\target\classes started by Admin in E:\练习\stringboot)
+2024-06-06T15:38:19.674+08:00  INFO 25896 --- [main] o.e.h.H5Application                      : The following 1 profile is active: "dev"
+2024-06-06T15:38:20.713+08:00  INFO 25896 --- [main] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port 8080 (http)
+2024-06-06T15:38:20.716+08:00  INFO 25896 --- [main] o.a.c.c.AprLifecycleListener             : Loaded Apache Tomcat Native library [2.0.7] using APR version [1.7.4].
+2024-06-06T15:38:20.719+08:00  INFO 25896 --- [main] o.a.c.c.AprLifecycleListener             : OpenSSL successfully initialized [OpenSSL 3.0.13 30 Jan 2024]
+2024-06-06T15:38:20.725+08:00  INFO 25896 --- [main] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2024-06-06T15:38:20.726+08:00  INFO 25896 --- [main] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/10.1.24]
+2024-06-06T15:38:20.766+08:00  INFO 25896 --- [main] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2024-06-06T15:38:20.767+08:00  INFO 25896 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1068 ms
+2024-06-06T15:38:21.841+08:00  INFO 25896 --- [main] o.s.b.a.e.w.EndpointLinksResolver        : Exposing 1 endpoint beneath base path '/actuator'
+2024-06-06T15:38:21.893+08:00  INFO 25896 --- [main] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port 8080 (http) with context path '/'
+2024-06-06T15:38:21.907+08:00  INFO 25896 --- [main] o.e.h.H5Application                      : Started H5Application in 2.551 seconds (process running for 3.159)
+2024-06-06T15:38:22.460+08:00  INFO 25896 --- [RMI TCP Connection(3)-192.168.9.102] o.a.c.c.C.[.[.[/]                        : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-06T15:38:22.461+08:00  INFO 25896 --- [RMI TCP Connection(3)-192.168.9.102] o.s.w.s.DispatcherServlet                : Initializing Servlet 'dispatcherServlet'
+2024-06-06T15:38:22.462+08:00  INFO 25896 --- [RMI TCP Connection(3)-192.168.9.102] o.s.w.s.DispatcherServlet                : Completed initialization in 1 ms
+2024-06-06T15:39:22.437+08:00  INFO 21564 --- [main] o.e.h.H5Application                      : Starting H5Application using Java 17.0.11 with PID 21564 (E:\练习\stringboot\h5\target\classes started by Admin in E:\练习\stringboot)
+2024-06-06T15:39:22.444+08:00  INFO 21564 --- [main] o.e.h.H5Application                      : The following 1 profile is active: "dev"
+2024-06-06T15:39:23.479+08:00  INFO 21564 --- [main] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port 8080 (http)
+2024-06-06T15:39:23.482+08:00  INFO 21564 --- [main] o.a.c.c.AprLifecycleListener             : Loaded Apache Tomcat Native library [2.0.7] using APR version [1.7.4].
+2024-06-06T15:39:23.486+08:00  INFO 21564 --- [main] o.a.c.c.AprLifecycleListener             : OpenSSL successfully initialized [OpenSSL 3.0.13 30 Jan 2024]
+2024-06-06T15:39:23.493+08:00  INFO 21564 --- [main] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2024-06-06T15:39:23.494+08:00  INFO 21564 --- [main] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/10.1.24]
+2024-06-06T15:39:23.536+08:00  INFO 21564 --- [main] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2024-06-06T15:39:23.537+08:00  INFO 21564 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1066 ms
+2024-06-06T15:39:24.594+08:00  INFO 21564 --- [main] o.s.b.a.e.w.EndpointLinksResolver        : Exposing 1 endpoint beneath base path '/actuator'
+2024-06-06T15:39:24.645+08:00  INFO 21564 --- [main] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port 8080 (http) with context path '/'
+2024-06-06T15:39:24.658+08:00  INFO 21564 --- [main] o.e.h.H5Application                      : Started H5Application in 2.55 seconds (process running for 3.153)
+2024-06-06T15:39:25.202+08:00  INFO 21564 --- [RMI TCP Connection(2)-192.168.9.102] o.a.c.c.C.[.[.[/]                        : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-06T15:39:25.202+08:00  INFO 21564 --- [RMI TCP Connection(2)-192.168.9.102] o.s.w.s.DispatcherServlet                : Initializing Servlet 'dispatcherServlet'
+2024-06-06T15:39:25.203+08:00  INFO 21564 --- [RMI TCP Connection(2)-192.168.9.102] o.s.w.s.DispatcherServlet                : Completed initialization in 1 ms
+2024-06-06T15:39:37.843+08:00  INFO 26932 --- [main] o.e.h.H5Application                      : Starting H5Application using Java 17.0.11 with PID 26932 (E:\练习\stringboot\h5\target\classes started by Admin in E:\练习\stringboot)
+2024-06-06T15:39:37.850+08:00  INFO 26932 --- [main] o.e.h.H5Application                      : The following 1 profile is active: "dev"
+2024-06-06T15:39:38.497+08:00  WARN 26932 --- [main] o.m.s.m.ClassPathMapperScanner           : No MyBatis mapper was found in '[org.example.h5]' package. Please check your configuration.
+2024-06-06T15:39:38.970+08:00  INFO 26932 --- [main] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port 8080 (http)
+2024-06-06T15:39:38.973+08:00  INFO 26932 --- [main] o.a.c.c.AprLifecycleListener             : Loaded Apache Tomcat Native library [2.0.7] using APR version [1.7.4].
+2024-06-06T15:39:38.976+08:00  INFO 26932 --- [main] o.a.c.c.AprLifecycleListener             : OpenSSL successfully initialized [OpenSSL 3.0.13 30 Jan 2024]
+2024-06-06T15:39:38.982+08:00  INFO 26932 --- [main] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2024-06-06T15:39:38.982+08:00  INFO 26932 --- [main] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/10.1.24]
+2024-06-06T15:39:39.035+08:00  INFO 26932 --- [main] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2024-06-06T15:39:39.035+08:00  INFO 26932 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1160 ms
+2024-06-06T15:39:40.289+08:00  INFO 26932 --- [main] o.s.b.a.e.w.EndpointLinksResolver        : Exposing 1 endpoint beneath base path '/actuator'
+2024-06-06T15:39:40.349+08:00  INFO 26932 --- [main] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port 8080 (http) with context path '/'
+2024-06-06T15:39:40.363+08:00  INFO 26932 --- [main] o.e.h.H5Application                      : Started H5Application in 2.835 seconds (process running for 3.405)
+2024-06-06T15:39:40.368+08:00  INFO 26932 --- [main] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-06-06T15:39:40.379+08:00 ERROR 26932 --- [main] o.s.b.SpringApplication                  : Application run failed
+
+org.springframework.beans.factory.BeanNotOfRequiredTypeException: Bean named 'ddlApplicationRunner' is expected to be of type 'org.springframework.boot.Runner' but was actually of type 'org.springframework.beans.factory.support.NullBean'
+	at org.springframework.beans.factory.support.AbstractBeanFactory.adaptBeanInstance(AbstractBeanFactory.java:422) ~[spring-beans-6.1.8.jar:6.1.8]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:403) ~[spring-beans-6.1.8.jar:6.1.8]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:205) ~[spring-beans-6.1.8.jar:6.1.8]
+	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:770) [spring-boot-3.3.0.jar:3.3.0]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:342) [spring-boot-3.3.0.jar:3.3.0]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1363) [spring-boot-3.3.0.jar:3.3.0]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1352) [spring-boot-3.3.0.jar:3.3.0]
+	at org.example.h5.H5Application.main(H5Application.java:10) [classes/:?]
+
+2024-06-06T15:40:04.901+08:00  INFO 23292 --- [main] o.e.h.H5Application                      : Starting H5Application using Java 17.0.11 with PID 23292 (E:\练习\stringboot\h5\target\classes started by Admin in E:\练习\stringboot)
+2024-06-06T15:40:04.907+08:00  INFO 23292 --- [main] o.e.h.H5Application                      : The following 1 profile is active: "dev"
+2024-06-06T15:40:05.547+08:00  WARN 23292 --- [main] o.m.s.m.ClassPathMapperScanner           : No MyBatis mapper was found in '[org.example.h5]' package. Please check your configuration.
+2024-06-06T15:40:06.018+08:00  INFO 23292 --- [main] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port 8080 (http)
+2024-06-06T15:40:06.022+08:00  INFO 23292 --- [main] o.a.c.c.AprLifecycleListener             : Loaded Apache Tomcat Native library [2.0.7] using APR version [1.7.4].
+2024-06-06T15:40:06.025+08:00  INFO 23292 --- [main] o.a.c.c.AprLifecycleListener             : OpenSSL successfully initialized [OpenSSL 3.0.13 30 Jan 2024]
+2024-06-06T15:40:06.031+08:00  INFO 23292 --- [main] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2024-06-06T15:40:06.031+08:00  INFO 23292 --- [main] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/10.1.24]
+2024-06-06T15:40:06.074+08:00  INFO 23292 --- [main] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2024-06-06T15:40:06.074+08:00  INFO 23292 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1143 ms
+2024-06-06T15:40:07.451+08:00  INFO 23292 --- [main] o.s.b.a.e.w.EndpointLinksResolver        : Exposing 1 endpoint beneath base path '/actuator'
+2024-06-06T15:40:07.516+08:00  INFO 23292 --- [main] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port 8080 (http) with context path '/'
+2024-06-06T15:40:07.531+08:00  INFO 23292 --- [main] o.e.h.H5Application                      : Started H5Application in 2.94 seconds (process running for 3.508)
+2024-06-06T15:40:07.536+08:00  INFO 23292 --- [main] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-06-06T15:40:07.547+08:00 ERROR 23292 --- [main] o.s.b.SpringApplication                  : Application run failed
+
+org.springframework.beans.factory.BeanNotOfRequiredTypeException: Bean named 'ddlApplicationRunner' is expected to be of type 'org.springframework.boot.Runner' but was actually of type 'org.springframework.beans.factory.support.NullBean'
+	at org.springframework.beans.factory.support.AbstractBeanFactory.adaptBeanInstance(AbstractBeanFactory.java:422) ~[spring-beans-6.1.8.jar:6.1.8]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:403) ~[spring-beans-6.1.8.jar:6.1.8]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:205) ~[spring-beans-6.1.8.jar:6.1.8]
+	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:770) [spring-boot-3.3.0.jar:3.3.0]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:342) [spring-boot-3.3.0.jar:3.3.0]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1363) [spring-boot-3.3.0.jar:3.3.0]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1352) [spring-boot-3.3.0.jar:3.3.0]
+	at org.example.h5.H5Application.main(H5Application.java:10) [classes/:?]
+
+2024-06-06T15:40:07.563+08:00  INFO 23292 --- [main] c.a.d.p.DruidDataSource                  : {dataSource-0} closing ...
+2024-06-06T15:41:32.626+08:00  INFO 28620 --- [main] o.e.h.H5Application                      : Starting H5Application using Java 17.0.11 with PID 28620 (E:\练习\stringboot\h5\target\classes started by Admin in E:\练习\stringboot)
+2024-06-06T15:41:32.632+08:00  INFO 28620 --- [main] o.e.h.H5Application                      : The following 1 profile is active: "dev"
+2024-06-06T15:41:33.264+08:00  WARN 28620 --- [main] o.m.s.m.ClassPathMapperScanner           : No MyBatis mapper was found in '[org.example.h5]' package. Please check your configuration.
+2024-06-06T15:41:33.736+08:00  INFO 28620 --- [main] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port 8080 (http)
+2024-06-06T15:41:33.740+08:00  INFO 28620 --- [main] o.a.c.c.AprLifecycleListener             : Loaded Apache Tomcat Native library [2.0.7] using APR version [1.7.4].
+2024-06-06T15:41:33.743+08:00  INFO 28620 --- [main] o.a.c.c.AprLifecycleListener             : OpenSSL successfully initialized [OpenSSL 3.0.13 30 Jan 2024]
+2024-06-06T15:41:33.749+08:00  INFO 28620 --- [main] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2024-06-06T15:41:33.749+08:00  INFO 28620 --- [main] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/10.1.24]
+2024-06-06T15:41:33.798+08:00  INFO 28620 --- [main] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2024-06-06T15:41:33.801+08:00  INFO 28620 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1143 ms
+2024-06-06T15:41:35.181+08:00  INFO 28620 --- [main] o.s.b.a.e.w.EndpointLinksResolver        : Exposing 1 endpoint beneath base path '/actuator'
+2024-06-06T15:41:35.241+08:00  INFO 28620 --- [main] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port 8080 (http) with context path '/'
+2024-06-06T15:41:35.255+08:00  INFO 28620 --- [main] o.e.h.H5Application                      : Started H5Application in 2.941 seconds (process running for 3.505)
+2024-06-06T15:41:35.260+08:00  INFO 28620 --- [main] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-06-06T15:41:35.271+08:00 ERROR 28620 --- [main] o.s.b.SpringApplication                  : Application run failed
+
+org.springframework.beans.factory.BeanNotOfRequiredTypeException: Bean named 'ddlApplicationRunner' is expected to be of type 'org.springframework.boot.Runner' but was actually of type 'org.springframework.beans.factory.support.NullBean'
+	at org.springframework.beans.factory.support.AbstractBeanFactory.adaptBeanInstance(AbstractBeanFactory.java:422) ~[spring-beans-6.1.8.jar:6.1.8]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:403) ~[spring-beans-6.1.8.jar:6.1.8]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:205) ~[spring-beans-6.1.8.jar:6.1.8]
+	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:770) [spring-boot-3.3.0.jar:3.3.0]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:342) [spring-boot-3.3.0.jar:3.3.0]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1363) [spring-boot-3.3.0.jar:3.3.0]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1352) [spring-boot-3.3.0.jar:3.3.0]
+	at org.example.h5.H5Application.main(H5Application.java:10) [classes/:?]
+
+2024-06-06T15:41:35.287+08:00  INFO 28620 --- [main] c.a.d.p.DruidDataSource                  : {dataSource-0} closing ...
+2024-06-06T15:41:42.947+08:00  INFO 24948 --- [main] o.e.h.H5Application                      : Starting H5Application using Java 17.0.11 with PID 24948 (E:\练习\stringboot\h5\target\classes started by Admin in E:\练习\stringboot)
+2024-06-06T15:41:42.953+08:00  INFO 24948 --- [main] o.e.h.H5Application                      : The following 1 profile is active: "dev"
+2024-06-06T15:41:43.586+08:00  WARN 24948 --- [main] o.m.s.m.ClassPathMapperScanner           : No MyBatis mapper was found in '[org.example.h5]' package. Please check your configuration.
+2024-06-06T15:41:44.058+08:00  INFO 24948 --- [main] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port 8080 (http)
+2024-06-06T15:41:44.062+08:00  INFO 24948 --- [main] o.a.c.c.AprLifecycleListener             : Loaded Apache Tomcat Native library [2.0.7] using APR version [1.7.4].
+2024-06-06T15:41:44.065+08:00  INFO 24948 --- [main] o.a.c.c.AprLifecycleListener             : OpenSSL successfully initialized [OpenSSL 3.0.13 30 Jan 2024]
+2024-06-06T15:41:44.071+08:00  INFO 24948 --- [main] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2024-06-06T15:41:44.072+08:00  INFO 24948 --- [main] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/10.1.24]
+2024-06-06T15:41:44.123+08:00  INFO 24948 --- [main] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2024-06-06T15:41:44.123+08:00  INFO 24948 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1145 ms
+2024-06-06T15:41:45.523+08:00  INFO 24948 --- [main] o.s.b.a.e.w.EndpointLinksResolver        : Exposing 1 endpoint beneath base path '/actuator'
+2024-06-06T15:41:45.584+08:00  INFO 24948 --- [main] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port 8080 (http) with context path '/'
+2024-06-06T15:41:45.598+08:00  INFO 24948 --- [main] o.e.h.H5Application                      : Started H5Application in 2.969 seconds (process running for 3.535)
+2024-06-06T15:41:45.604+08:00  INFO 24948 --- [main] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-06-06T15:41:45.614+08:00 ERROR 24948 --- [main] o.s.b.SpringApplication                  : Application run failed
+
+org.springframework.beans.factory.BeanNotOfRequiredTypeException: Bean named 'ddlApplicationRunner' is expected to be of type 'org.springframework.boot.Runner' but was actually of type 'org.springframework.beans.factory.support.NullBean'
+	at org.springframework.beans.factory.support.AbstractBeanFactory.adaptBeanInstance(AbstractBeanFactory.java:422) ~[spring-beans-6.1.8.jar:6.1.8]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:403) ~[spring-beans-6.1.8.jar:6.1.8]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:205) ~[spring-beans-6.1.8.jar:6.1.8]
+	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:770) [spring-boot-3.3.0.jar:3.3.0]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:342) [spring-boot-3.3.0.jar:3.3.0]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1363) [spring-boot-3.3.0.jar:3.3.0]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1352) [spring-boot-3.3.0.jar:3.3.0]
+	at org.example.h5.H5Application.main(H5Application.java:10) [classes/:?]
+
+2024-06-06T15:41:45.631+08:00  INFO 24948 --- [main] c.a.d.p.DruidDataSource                  : {dataSource-0} closing ...
+2024-06-06T15:41:58.588+08:00  INFO 29992 --- [main] o.e.h.H5Application                      : Starting H5Application using Java 17.0.11 with PID 29992 (E:\练习\stringboot\h5\target\classes started by Admin in E:\练习\stringboot)
+2024-06-06T15:41:58.594+08:00  INFO 29992 --- [main] o.e.h.H5Application                      : The following 1 profile is active: "dev"
+2024-06-06T15:41:59.214+08:00  WARN 29992 --- [main] o.m.s.m.ClassPathMapperScanner           : No MyBatis mapper was found in '[org.example.h5]' package. Please check your configuration.
+2024-06-06T15:41:59.680+08:00  INFO 29992 --- [main] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port 8080 (http)
+2024-06-06T15:41:59.683+08:00  INFO 29992 --- [main] o.a.c.c.AprLifecycleListener             : Loaded Apache Tomcat Native library [2.0.7] using APR version [1.7.4].
+2024-06-06T15:41:59.686+08:00  INFO 29992 --- [main] o.a.c.c.AprLifecycleListener             : OpenSSL successfully initialized [OpenSSL 3.0.13 30 Jan 2024]
+2024-06-06T15:41:59.692+08:00  INFO 29992 --- [main] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2024-06-06T15:41:59.692+08:00  INFO 29992 --- [main] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/10.1.24]
+2024-06-06T15:41:59.734+08:00  INFO 29992 --- [main] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2024-06-06T15:41:59.734+08:00  INFO 29992 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1116 ms
+2024-06-06T15:42:01.099+08:00  INFO 29992 --- [main] o.s.b.a.e.w.EndpointLinksResolver        : Exposing 1 endpoint beneath base path '/actuator'
+2024-06-06T15:42:01.160+08:00  INFO 29992 --- [main] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port 8080 (http) with context path '/'
+2024-06-06T15:42:01.174+08:00  INFO 29992 --- [main] o.e.h.H5Application                      : Started H5Application in 2.899 seconds (process running for 3.529)
+2024-06-06T15:42:01.179+08:00  INFO 29992 --- [main] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-06-06T15:42:01.190+08:00 ERROR 29992 --- [main] o.s.b.SpringApplication                  : Application run failed
+
+org.springframework.beans.factory.BeanNotOfRequiredTypeException: Bean named 'ddlApplicationRunner' is expected to be of type 'org.springframework.boot.Runner' but was actually of type 'org.springframework.beans.factory.support.NullBean'
+	at org.springframework.beans.factory.support.AbstractBeanFactory.adaptBeanInstance(AbstractBeanFactory.java:422) ~[spring-beans-6.1.8.jar:6.1.8]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:403) ~[spring-beans-6.1.8.jar:6.1.8]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:205) ~[spring-beans-6.1.8.jar:6.1.8]
+	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:770) [spring-boot-3.3.0.jar:3.3.0]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:342) [spring-boot-3.3.0.jar:3.3.0]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1363) [spring-boot-3.3.0.jar:3.3.0]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1352) [spring-boot-3.3.0.jar:3.3.0]
+	at org.example.h5.H5Application.main(H5Application.java:10) [classes/:?]
+
+2024-06-06T15:42:01.206+08:00  INFO 29992 --- [main] c.a.d.p.DruidDataSource                  : {dataSource-0} closing ...
+2024-06-06T15:42:07.026+08:00  INFO 15300 --- [main] o.e.h.H5Application                      : Starting H5Application using Java 17.0.11 with PID 15300 (E:\练习\stringboot\h5\target\classes started by Admin in E:\练习\stringboot)
+2024-06-06T15:42:07.032+08:00  INFO 15300 --- [main] o.e.h.H5Application                      : The following 1 profile is active: "dev"
+2024-06-06T15:42:07.663+08:00  WARN 15300 --- [main] o.m.s.m.ClassPathMapperScanner           : No MyBatis mapper was found in '[org.example.h5]' package. Please check your configuration.
+2024-06-06T15:42:08.130+08:00  INFO 15300 --- [main] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port 8080 (http)
+2024-06-06T15:42:08.133+08:00  INFO 15300 --- [main] o.a.c.c.AprLifecycleListener             : Loaded Apache Tomcat Native library [2.0.7] using APR version [1.7.4].
+2024-06-06T15:42:08.136+08:00  INFO 15300 --- [main] o.a.c.c.AprLifecycleListener             : OpenSSL successfully initialized [OpenSSL 3.0.13 30 Jan 2024]
+2024-06-06T15:42:08.142+08:00  INFO 15300 --- [main] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2024-06-06T15:42:08.143+08:00  INFO 15300 --- [main] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/10.1.24]
+2024-06-06T15:42:08.186+08:00  INFO 15300 --- [main] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2024-06-06T15:42:08.187+08:00  INFO 15300 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1130 ms
+2024-06-06T15:42:09.559+08:00  INFO 15300 --- [main] o.s.b.a.e.w.EndpointLinksResolver        : Exposing 1 endpoint beneath base path '/actuator'
+2024-06-06T15:42:09.622+08:00  INFO 15300 --- [main] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port 8080 (http) with context path '/'
+2024-06-06T15:42:09.636+08:00  INFO 15300 --- [main] o.e.h.H5Application                      : Started H5Application in 2.929 seconds (process running for 3.49)
+2024-06-06T15:42:09.641+08:00  INFO 15300 --- [main] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-06-06T15:42:09.651+08:00 ERROR 15300 --- [main] o.s.b.SpringApplication                  : Application run failed
+
+org.springframework.beans.factory.BeanNotOfRequiredTypeException: Bean named 'ddlApplicationRunner' is expected to be of type 'org.springframework.boot.Runner' but was actually of type 'org.springframework.beans.factory.support.NullBean'
+	at org.springframework.beans.factory.support.AbstractBeanFactory.adaptBeanInstance(AbstractBeanFactory.java:422) ~[spring-beans-6.1.8.jar:6.1.8]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:403) ~[spring-beans-6.1.8.jar:6.1.8]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:205) ~[spring-beans-6.1.8.jar:6.1.8]
+	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:770) [spring-boot-3.3.0.jar:3.3.0]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:342) [spring-boot-3.3.0.jar:3.3.0]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1363) [spring-boot-3.3.0.jar:3.3.0]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1352) [spring-boot-3.3.0.jar:3.3.0]
+	at org.example.h5.H5Application.main(H5Application.java:10) [classes/:?]
+
+2024-06-06T15:42:09.670+08:00  INFO 15300 --- [main] c.a.d.p.DruidDataSource                  : {dataSource-0} closing ...
+2024-06-06T15:42:17.910+08:00  INFO 17460 --- [main] o.e.h.H5Application                      : Starting H5Application using Java 17.0.11 with PID 17460 (E:\练习\stringboot\h5\target\classes started by Admin in E:\练习\stringboot)
+2024-06-06T15:42:17.917+08:00  INFO 17460 --- [main] o.e.h.H5Application                      : The following 1 profile is active: "dev"
+2024-06-06T15:42:18.546+08:00  WARN 17460 --- [main] o.m.s.m.ClassPathMapperScanner           : No MyBatis mapper was found in '[org.example.h5]' package. Please check your configuration.
+2024-06-06T15:42:19.014+08:00  INFO 17460 --- [main] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port 8080 (http)
+2024-06-06T15:42:19.019+08:00  INFO 17460 --- [main] o.a.c.c.AprLifecycleListener             : Loaded Apache Tomcat Native library [2.0.7] using APR version [1.7.4].
+2024-06-06T15:42:19.022+08:00  INFO 17460 --- [main] o.a.c.c.AprLifecycleListener             : OpenSSL successfully initialized [OpenSSL 3.0.13 30 Jan 2024]
+2024-06-06T15:42:19.028+08:00  INFO 17460 --- [main] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2024-06-06T15:42:19.028+08:00  INFO 17460 --- [main] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/10.1.24]
+2024-06-06T15:42:19.072+08:00  INFO 17460 --- [main] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2024-06-06T15:42:19.072+08:00  INFO 17460 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1131 ms
+2024-06-06T15:42:19.779+08:00  WARN 17460 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Generic.class]: Unsatisfied dependency expressed through method 'dataSource' parameter 0: Error creating bean with name 'spring.datasource-org.springframework.boot.autoconfigure.jdbc.DataSourceProperties': Could not bind properties to 'DataSourceProperties' : prefix=spring.datasource, ignoreInvalidFields=false, ignoreUnknownFields=true
+2024-06-06T15:42:19.781+08:00  INFO 17460 --- [main] o.a.c.c.StandardService                  : Stopping service [Tomcat]
+2024-06-06T15:42:19.801+08:00  INFO 17460 --- [main] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-06-06T15:42:19.812+08:00 ERROR 17460 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to bind properties under 'spring.datasource.type' to java.lang.Class<javax.sql.DataSource>:
+
+    Property: spring.datasource.type
+    Value: "com.alibaba.druid.pool.DruidDataSource"
+    Origin: class path resource [application-dev.yml] - 10:11
+    Reason: failed to convert java.lang.String to java.lang.Class<javax.sql.DataSource> (caused by java.lang.ClassNotFoundException: com.alibaba.druid.pool.DruidDataSource)
+
+Action:
+
+Update your application's configuration
+
+2024-06-06T15:45:26.512+08:00  INFO 9404 --- [main] o.e.h.H5Application                      : Starting H5Application using Java 17.0.11 with PID 9404 (E:\练习\stringboot\h5\target\classes started by Admin in E:\练习\stringboot)
+2024-06-06T15:45:26.518+08:00  INFO 9404 --- [main] o.e.h.H5Application                      : The following 1 profile is active: "dev"
+2024-06-06T15:45:27.219+08:00  WARN 9404 --- [main] o.m.s.m.ClassPathMapperScanner           : No MyBatis mapper was found in '[org.example.h5]' package. Please check your configuration.
+2024-06-06T15:45:27.738+08:00  INFO 9404 --- [main] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port 8080 (http)
+2024-06-06T15:45:27.743+08:00  INFO 9404 --- [main] o.a.c.c.AprLifecycleListener             : Loaded Apache Tomcat Native library [2.0.7] using APR version [1.7.4].
+2024-06-06T15:45:27.746+08:00  INFO 9404 --- [main] o.a.c.c.AprLifecycleListener             : OpenSSL successfully initialized [OpenSSL 3.0.13 30 Jan 2024]
+2024-06-06T15:45:27.752+08:00  INFO 9404 --- [main] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2024-06-06T15:45:27.752+08:00  INFO 9404 --- [main] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/10.1.24]
+2024-06-06T15:45:27.805+08:00  INFO 9404 --- [main] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2024-06-06T15:45:27.805+08:00  INFO 9404 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1262 ms
+2024-06-06T15:45:29.230+08:00  INFO 9404 --- [main] o.s.b.a.e.w.EndpointLinksResolver        : Exposing 1 endpoint beneath base path '/actuator'
+2024-06-06T15:45:29.293+08:00  INFO 9404 --- [main] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port 8080 (http) with context path '/'
+2024-06-06T15:45:29.308+08:00  INFO 9404 --- [main] o.e.h.H5Application                      : Started H5Application in 3.155 seconds (process running for 3.745)
+2024-06-06T15:45:29.313+08:00  INFO 9404 --- [main] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-06-06T15:45:29.324+08:00 ERROR 9404 --- [main] o.s.b.SpringApplication                  : Application run failed
+
+org.springframework.beans.factory.BeanNotOfRequiredTypeException: Bean named 'ddlApplicationRunner' is expected to be of type 'org.springframework.boot.Runner' but was actually of type 'org.springframework.beans.factory.support.NullBean'
+	at org.springframework.beans.factory.support.AbstractBeanFactory.adaptBeanInstance(AbstractBeanFactory.java:422) ~[spring-beans-6.1.8.jar:6.1.8]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:403) ~[spring-beans-6.1.8.jar:6.1.8]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:205) ~[spring-beans-6.1.8.jar:6.1.8]
+	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:770) [spring-boot-3.3.0.jar:3.3.0]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:342) [spring-boot-3.3.0.jar:3.3.0]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1363) [spring-boot-3.3.0.jar:3.3.0]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1352) [spring-boot-3.3.0.jar:3.3.0]
+	at org.example.h5.H5Application.main(H5Application.java:10) [classes/:?]
+
+2024-06-06T15:45:29.341+08:00  INFO 9404 --- [main] c.a.d.p.DruidDataSource                  : {dataSource-0} closing ...
+2024-06-06T15:47:19.535+08:00  INFO 27560 --- [main] o.e.h.H5Application                      : Starting H5Application using Java 17.0.11 with PID 27560 (E:\练习\stringboot\h5\target\classes started by Admin in E:\练习\stringboot)
+2024-06-06T15:47:19.540+08:00  INFO 27560 --- [main] o.e.h.H5Application                      : The following 1 profile is active: "dev"
+2024-06-06T15:47:20.167+08:00  WARN 27560 --- [main] o.m.s.m.ClassPathMapperScanner           : No MyBatis mapper was found in '[org.example.h5]' package. Please check your configuration.
+2024-06-06T15:47:20.639+08:00  INFO 27560 --- [main] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port 8081 (http)
+2024-06-06T15:47:20.642+08:00  INFO 27560 --- [main] o.a.c.c.AprLifecycleListener             : Loaded Apache Tomcat Native library [2.0.7] using APR version [1.7.4].
+2024-06-06T15:47:20.646+08:00  INFO 27560 --- [main] o.a.c.c.AprLifecycleListener             : OpenSSL successfully initialized [OpenSSL 3.0.13 30 Jan 2024]
+2024-06-06T15:47:20.652+08:00  INFO 27560 --- [main] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2024-06-06T15:47:20.652+08:00  INFO 27560 --- [main] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/10.1.24]
+2024-06-06T15:47:20.704+08:00  INFO 27560 --- [main] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2024-06-06T15:47:20.704+08:00  INFO 27560 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1140 ms
+2024-06-06T15:47:22.083+08:00  INFO 27560 --- [main] o.s.b.a.e.w.EndpointLinksResolver        : Exposing 1 endpoint beneath base path '/actuator'
+2024-06-06T15:47:22.143+08:00  INFO 27560 --- [main] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port 8081 (http) with context path '/'
+2024-06-06T15:47:22.156+08:00  INFO 27560 --- [main] o.e.h.H5Application                      : Started H5Application in 2.936 seconds (process running for 3.51)
+2024-06-06T15:47:22.162+08:00  INFO 27560 --- [main] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-06-06T15:47:22.172+08:00 ERROR 27560 --- [main] o.s.b.SpringApplication                  : Application run failed
+
+org.springframework.beans.factory.BeanNotOfRequiredTypeException: Bean named 'ddlApplicationRunner' is expected to be of type 'org.springframework.boot.Runner' but was actually of type 'org.springframework.beans.factory.support.NullBean'
+	at org.springframework.beans.factory.support.AbstractBeanFactory.adaptBeanInstance(AbstractBeanFactory.java:422) ~[spring-beans-6.1.8.jar:6.1.8]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:403) ~[spring-beans-6.1.8.jar:6.1.8]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:205) ~[spring-beans-6.1.8.jar:6.1.8]
+	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:770) [spring-boot-3.3.0.jar:3.3.0]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:342) [spring-boot-3.3.0.jar:3.3.0]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1363) [spring-boot-3.3.0.jar:3.3.0]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1352) [spring-boot-3.3.0.jar:3.3.0]
+	at org.example.h5.H5Application.main(H5Application.java:10) [classes/:?]
+
+2024-06-06T15:47:22.189+08:00  INFO 27560 --- [main] c.a.d.p.DruidDataSource                  : {dataSource-0} closing ...
+2024-06-06T15:59:27.131+08:00  INFO 28536 --- [main] o.e.h.H5Application                      : Starting H5Application using Java 17.0.11 with PID 28536 (E:\练习\stringboot\h5\target\classes started by Admin in E:\练习\stringboot)
+2024-06-06T15:59:27.137+08:00  INFO 28536 --- [main] o.e.h.H5Application                      : The following 1 profile is active: "dev"
+2024-06-06T15:59:27.768+08:00  WARN 28536 --- [main] o.m.s.m.ClassPathMapperScanner           : No MyBatis mapper was found in '[org.example.h5]' package. Please check your configuration.
+2024-06-06T15:59:28.234+08:00  INFO 28536 --- [main] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port 8080 (http)
+2024-06-06T15:59:28.239+08:00  INFO 28536 --- [main] o.a.c.c.AprLifecycleListener             : Loaded Apache Tomcat Native library [2.0.7] using APR version [1.7.4].
+2024-06-06T15:59:28.242+08:00  INFO 28536 --- [main] o.a.c.c.AprLifecycleListener             : OpenSSL successfully initialized [OpenSSL 3.0.13 30 Jan 2024]
+2024-06-06T15:59:28.248+08:00  INFO 28536 --- [main] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2024-06-06T15:59:28.249+08:00  INFO 28536 --- [main] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/10.1.24]
+2024-06-06T15:59:28.303+08:00  INFO 28536 --- [main] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2024-06-06T15:59:28.303+08:00  INFO 28536 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1142 ms
+2024-06-06T15:59:29.698+08:00  INFO 28536 --- [main] o.s.b.a.e.w.EndpointLinksResolver        : Exposing 1 endpoint beneath base path '/actuator'
+2024-06-06T15:59:29.758+08:00  INFO 28536 --- [main] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port 8080 (http) with context path '/'
+2024-06-06T15:59:29.772+08:00  INFO 28536 --- [main] o.e.h.H5Application                      : Started H5Application in 2.957 seconds (process running for 3.535)
+2024-06-06T15:59:29.777+08:00  INFO 28536 --- [main] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-06-06T15:59:29.787+08:00 ERROR 28536 --- [main] o.s.b.SpringApplication                  : Application run failed
+
+org.springframework.beans.factory.BeanNotOfRequiredTypeException: Bean named 'ddlApplicationRunner' is expected to be of type 'org.springframework.boot.Runner' but was actually of type 'org.springframework.beans.factory.support.NullBean'
+	at org.springframework.beans.factory.support.AbstractBeanFactory.adaptBeanInstance(AbstractBeanFactory.java:422) ~[spring-beans-6.1.8.jar:6.1.8]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:403) ~[spring-beans-6.1.8.jar:6.1.8]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:205) ~[spring-beans-6.1.8.jar:6.1.8]
+	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:770) [spring-boot-3.3.0.jar:3.3.0]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:342) [spring-boot-3.3.0.jar:3.3.0]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1363) [spring-boot-3.3.0.jar:3.3.0]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1352) [spring-boot-3.3.0.jar:3.3.0]
+	at org.example.h5.H5Application.main(H5Application.java:10) [classes/:?]
+
+2024-06-06T15:59:29.804+08:00  INFO 28536 --- [main] c.a.d.p.DruidDataSource                  : {dataSource-0} closing ...
+2024-06-06T16:03:54.015+08:00  INFO 3600 --- [main] o.e.h.H5Application                      : Starting H5Application using Java 17.0.11 with PID 3600 (E:\练习\stringboot\h5\target\classes started by Admin in E:\练习\stringboot)
+2024-06-06T16:03:54.021+08:00  INFO 3600 --- [main] o.e.h.H5Application                      : The following 1 profile is active: "dev"
+2024-06-06T16:03:54.658+08:00  WARN 3600 --- [main] o.m.s.m.ClassPathMapperScanner           : No MyBatis mapper was found in '[org.example.h5]' package. Please check your configuration.
+2024-06-06T16:03:55.132+08:00  INFO 3600 --- [main] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port 8080 (http)
+2024-06-06T16:03:55.137+08:00  INFO 3600 --- [main] o.a.c.c.AprLifecycleListener             : Loaded Apache Tomcat Native library [2.0.7] using APR version [1.7.4].
+2024-06-06T16:03:55.140+08:00  INFO 3600 --- [main] o.a.c.c.AprLifecycleListener             : OpenSSL successfully initialized [OpenSSL 3.0.13 30 Jan 2024]
+2024-06-06T16:03:55.148+08:00  INFO 3600 --- [main] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2024-06-06T16:03:55.148+08:00  INFO 3600 --- [main] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/10.1.24]
+2024-06-06T16:03:55.200+08:00  INFO 3600 --- [main] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2024-06-06T16:03:55.200+08:00  INFO 3600 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1155 ms
+2024-06-06T16:03:56.590+08:00  INFO 3600 --- [main] o.s.b.a.e.w.EndpointLinksResolver        : Exposing 1 endpoint beneath base path '/actuator'
+2024-06-06T16:03:56.652+08:00  INFO 3600 --- [main] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port 8080 (http) with context path '/'
+2024-06-06T16:03:56.667+08:00  INFO 3600 --- [main] o.e.h.H5Application                      : Started H5Application in 2.972 seconds (process running for 3.583)
+2024-06-06T16:03:56.672+08:00  INFO 3600 --- [main] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-06-06T16:03:56.682+08:00 ERROR 3600 --- [main] o.s.b.SpringApplication                  : Application run failed
+
+org.springframework.beans.factory.BeanNotOfRequiredTypeException: Bean named 'ddlApplicationRunner' is expected to be of type 'org.springframework.boot.Runner' but was actually of type 'org.springframework.beans.factory.support.NullBean'
+	at org.springframework.beans.factory.support.AbstractBeanFactory.adaptBeanInstance(AbstractBeanFactory.java:422) ~[spring-beans-6.1.8.jar:6.1.8]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:403) ~[spring-beans-6.1.8.jar:6.1.8]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:205) ~[spring-beans-6.1.8.jar:6.1.8]
+	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:770) [spring-boot-3.3.0.jar:3.3.0]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:342) [spring-boot-3.3.0.jar:3.3.0]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1363) [spring-boot-3.3.0.jar:3.3.0]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1352) [spring-boot-3.3.0.jar:3.3.0]
+	at org.example.h5.H5Application.main(H5Application.java:10) [classes/:?]
+
+2024-06-06T16:03:56.698+08:00  INFO 3600 --- [main] c.a.d.p.DruidDataSource                  : {dataSource-0} closing ...
+2024-06-06T16:08:23.886+08:00  INFO 5980 --- [main] o.e.h.H5Application                      : Starting H5Application using Java 17.0.11 with PID 5980 (E:\练习\stringboot\h5\target\classes started by Admin in E:\练习\stringboot)
+2024-06-06T16:08:23.891+08:00  INFO 5980 --- [main] o.e.h.H5Application                      : The following 1 profile is active: "dev"
+2024-06-06T16:08:24.535+08:00  WARN 5980 --- [main] o.m.s.m.ClassPathMapperScanner           : No MyBatis mapper was found in '[org.example.h5]' package. Please check your configuration.
+2024-06-06T16:08:25.004+08:00  INFO 5980 --- [main] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port 8080 (http)
+2024-06-06T16:08:25.008+08:00  INFO 5980 --- [main] o.a.c.c.AprLifecycleListener             : Loaded Apache Tomcat Native library [2.0.7] using APR version [1.7.4].
+2024-06-06T16:08:25.012+08:00  INFO 5980 --- [main] o.a.c.c.AprLifecycleListener             : OpenSSL successfully initialized [OpenSSL 3.0.13 30 Jan 2024]
+2024-06-06T16:08:25.018+08:00  INFO 5980 --- [main] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2024-06-06T16:08:25.018+08:00  INFO 5980 --- [main] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/10.1.24]
+2024-06-06T16:08:25.062+08:00  INFO 5980 --- [main] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2024-06-06T16:08:25.062+08:00  INFO 5980 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1147 ms
+2024-06-06T16:08:26.461+08:00  INFO 5980 --- [main] o.s.b.a.e.w.EndpointLinksResolver        : Exposing 1 endpoint beneath base path '/actuator'
+2024-06-06T16:08:26.520+08:00  INFO 5980 --- [main] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port 8080 (http) with context path '/'
+2024-06-06T16:08:26.533+08:00  INFO 5980 --- [main] o.e.h.H5Application                      : Started H5Application in 2.968 seconds (process running for 3.542)
+2024-06-06T16:08:26.538+08:00  INFO 5980 --- [main] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-06-06T16:08:26.550+08:00 ERROR 5980 --- [main] o.s.b.SpringApplication                  : Application run failed
+
+org.springframework.beans.factory.BeanNotOfRequiredTypeException: Bean named 'ddlApplicationRunner' is expected to be of type 'org.springframework.boot.Runner' but was actually of type 'org.springframework.beans.factory.support.NullBean'
+	at org.springframework.beans.factory.support.AbstractBeanFactory.adaptBeanInstance(AbstractBeanFactory.java:422) ~[spring-beans-6.1.8.jar:6.1.8]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:403) ~[spring-beans-6.1.8.jar:6.1.8]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:205) ~[spring-beans-6.1.8.jar:6.1.8]
+	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:770) [spring-boot-3.3.0.jar:3.3.0]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:342) [spring-boot-3.3.0.jar:3.3.0]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1363) [spring-boot-3.3.0.jar:3.3.0]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1352) [spring-boot-3.3.0.jar:3.3.0]
+	at org.example.h5.H5Application.main(H5Application.java:10) [classes/:?]
+
+2024-06-06T16:08:26.566+08:00  INFO 5980 --- [main] c.a.d.p.DruidDataSource                  : {dataSource-0} closing ...
+2024-06-06T16:11:17.384+08:00  INFO 10564 --- [main] o.e.h.H5Application                      : Starting H5Application using Java 17.0.11 with PID 10564 (E:\练习\stringboot\h5\target\classes started by Admin in E:\练习\stringboot)
+2024-06-06T16:11:17.391+08:00  INFO 10564 --- [main] o.e.h.H5Application                      : The following 1 profile is active: "dev"
+2024-06-06T16:11:18.036+08:00  WARN 10564 --- [main] o.m.s.m.ClassPathMapperScanner           : No MyBatis mapper was found in '[org.example.h5]' package. Please check your configuration.
+2024-06-06T16:11:18.510+08:00  INFO 10564 --- [main] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port 8080 (http)
+2024-06-06T16:11:18.515+08:00  INFO 10564 --- [main] o.a.c.c.AprLifecycleListener             : Loaded Apache Tomcat Native library [2.0.7] using APR version [1.7.4].
+2024-06-06T16:11:18.518+08:00  INFO 10564 --- [main] o.a.c.c.AprLifecycleListener             : OpenSSL successfully initialized [OpenSSL 3.0.13 30 Jan 2024]
+2024-06-06T16:11:18.524+08:00  INFO 10564 --- [main] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2024-06-06T16:11:18.525+08:00  INFO 10564 --- [main] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/10.1.24]
+2024-06-06T16:11:18.578+08:00  INFO 10564 --- [main] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2024-06-06T16:11:18.578+08:00  INFO 10564 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1162 ms
+2024-06-06T16:11:19.954+08:00  INFO 10564 --- [main] o.s.b.a.e.w.EndpointLinksResolver        : Exposing 1 endpoint beneath base path '/actuator'
+2024-06-06T16:11:20.014+08:00  INFO 10564 --- [main] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port 8080 (http) with context path '/'
+2024-06-06T16:11:20.027+08:00  INFO 10564 --- [main] o.e.h.H5Application                      : Started H5Application in 2.969 seconds (process running for 3.549)
+2024-06-06T16:11:20.032+08:00  INFO 10564 --- [main] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-06-06T16:11:20.043+08:00 ERROR 10564 --- [main] o.s.b.SpringApplication                  : Application run failed
+
+org.springframework.beans.factory.BeanNotOfRequiredTypeException: Bean named 'ddlApplicationRunner' is expected to be of type 'org.springframework.boot.Runner' but was actually of type 'org.springframework.beans.factory.support.NullBean'
+	at org.springframework.beans.factory.support.AbstractBeanFactory.adaptBeanInstance(AbstractBeanFactory.java:422) ~[spring-beans-6.1.8.jar:6.1.8]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:403) ~[spring-beans-6.1.8.jar:6.1.8]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:205) ~[spring-beans-6.1.8.jar:6.1.8]
+	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:770) [spring-boot-3.3.0.jar:3.3.0]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:342) [spring-boot-3.3.0.jar:3.3.0]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1363) [spring-boot-3.3.0.jar:3.3.0]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1352) [spring-boot-3.3.0.jar:3.3.0]
+	at org.example.h5.H5Application.main(H5Application.java:10) [classes/:?]
+
+2024-06-06T16:11:20.060+08:00  INFO 10564 --- [main] c.a.d.p.DruidDataSource                  : {dataSource-0} closing ...
+2024-06-06T16:13:19.430+08:00  INFO 28840 --- [main] o.e.h.H5Application                      : Starting H5Application using Java 17.0.11 with PID 28840 (E:\练习\stringboot\h5\target\classes started by Admin in E:\练习\stringboot)
+2024-06-06T16:13:19.436+08:00  INFO 28840 --- [main] o.e.h.H5Application                      : The following 1 profile is active: "dev"
+2024-06-06T16:13:20.075+08:00  WARN 28840 --- [main] o.m.s.m.ClassPathMapperScanner           : No MyBatis mapper was found in '[org.example.h5]' package. Please check your configuration.
+2024-06-06T16:13:20.558+08:00  INFO 28840 --- [main] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port 8080 (http)
+2024-06-06T16:13:20.561+08:00  INFO 28840 --- [main] o.a.c.c.AprLifecycleListener             : Loaded Apache Tomcat Native library [2.0.7] using APR version [1.7.4].
+2024-06-06T16:13:20.565+08:00  INFO 28840 --- [main] o.a.c.c.AprLifecycleListener             : OpenSSL successfully initialized [OpenSSL 3.0.13 30 Jan 2024]
+2024-06-06T16:13:20.571+08:00  INFO 28840 --- [main] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2024-06-06T16:13:20.571+08:00  INFO 28840 --- [main] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/10.1.24]
+2024-06-06T16:13:20.614+08:00  INFO 28840 --- [main] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2024-06-06T16:13:20.614+08:00  INFO 28840 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1153 ms
+2024-06-06T16:13:22.006+08:00  INFO 28840 --- [main] o.s.b.a.e.w.EndpointLinksResolver        : Exposing 1 endpoint beneath base path '/actuator'
+2024-06-06T16:13:22.070+08:00  INFO 28840 --- [main] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port 8080 (http) with context path '/'
+2024-06-06T16:13:22.096+08:00  INFO 28840 --- [main] o.e.h.H5Application                      : Started H5Application in 2.984 seconds (process running for 3.559)
+2024-06-06T16:13:22.113+08:00  INFO 28840 --- [main] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-06-06T16:13:22.125+08:00 ERROR 28840 --- [main] o.s.b.SpringApplication                  : Application run failed
+
+org.springframework.beans.factory.BeanNotOfRequiredTypeException: Bean named 'ddlApplicationRunner' is expected to be of type 'org.springframework.boot.Runner' but was actually of type 'org.springframework.beans.factory.support.NullBean'
+	at org.springframework.beans.factory.support.AbstractBeanFactory.adaptBeanInstance(AbstractBeanFactory.java:422) ~[spring-beans-6.1.8.jar:6.1.8]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:403) ~[spring-beans-6.1.8.jar:6.1.8]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:205) ~[spring-beans-6.1.8.jar:6.1.8]
+	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:770) [spring-boot-3.3.0.jar:3.3.0]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:342) [spring-boot-3.3.0.jar:3.3.0]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1363) [spring-boot-3.3.0.jar:3.3.0]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1352) [spring-boot-3.3.0.jar:3.3.0]
+	at org.example.h5.H5Application.main(H5Application.java:10) [classes/:?]
+
+2024-06-06T16:13:22.140+08:00  INFO 28840 --- [main] c.a.d.p.DruidDataSource                  : {dataSource-0} closing ...
+2024-06-06T16:18:44.502+08:00  INFO 27392 --- [main] o.e.h.H5Application                      : Starting H5Application using Java 17.0.11 with PID 27392 (E:\练习\stringboot\h5\target\classes started by Admin in E:\练习\stringboot)
+2024-06-06T16:18:44.507+08:00  INFO 27392 --- [main] o.e.h.H5Application                      : The following 1 profile is active: "dev"
+2024-06-06T16:18:45.137+08:00  WARN 27392 --- [main] o.m.s.m.ClassPathMapperScanner           : No MyBatis mapper was found in '[org.example.h5]' package. Please check your configuration.
+2024-06-06T16:18:45.628+08:00  INFO 27392 --- [main] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port 8080 (http)
+2024-06-06T16:18:45.632+08:00  INFO 27392 --- [main] o.a.c.c.AprLifecycleListener             : Loaded Apache Tomcat Native library [2.0.7] using APR version [1.7.4].
+2024-06-06T16:18:45.635+08:00  INFO 27392 --- [main] o.a.c.c.AprLifecycleListener             : OpenSSL successfully initialized [OpenSSL 3.0.13 30 Jan 2024]
+2024-06-06T16:18:45.642+08:00  INFO 27392 --- [main] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2024-06-06T16:18:45.642+08:00  INFO 27392 --- [main] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/10.1.24]
+2024-06-06T16:18:45.693+08:00  INFO 27392 --- [main] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2024-06-06T16:18:45.696+08:00  INFO 27392 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1161 ms
+2024-06-06T16:18:47.084+08:00  INFO 27392 --- [main] o.s.b.a.e.w.EndpointLinksResolver        : Exposing 1 endpoint beneath base path '/actuator'
+2024-06-06T16:18:47.144+08:00  INFO 27392 --- [main] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port 8080 (http) with context path '/'
+2024-06-06T16:18:47.158+08:00  INFO 27392 --- [main] o.e.h.H5Application                      : Started H5Application in 3.0 seconds (process running for 3.603)
+2024-06-06T16:18:47.164+08:00  INFO 27392 --- [main] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-06-06T16:18:47.174+08:00 ERROR 27392 --- [main] o.s.b.SpringApplication                  : Application run failed
+
+org.springframework.beans.factory.BeanNotOfRequiredTypeException: Bean named 'ddlApplicationRunner' is expected to be of type 'org.springframework.boot.Runner' but was actually of type 'org.springframework.beans.factory.support.NullBean'
+	at org.springframework.beans.factory.support.AbstractBeanFactory.adaptBeanInstance(AbstractBeanFactory.java:422) ~[spring-beans-6.1.8.jar:6.1.8]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:403) ~[spring-beans-6.1.8.jar:6.1.8]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:205) ~[spring-beans-6.1.8.jar:6.1.8]
+	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:770) [spring-boot-3.3.0.jar:3.3.0]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:342) [spring-boot-3.3.0.jar:3.3.0]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1363) [spring-boot-3.3.0.jar:3.3.0]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1352) [spring-boot-3.3.0.jar:3.3.0]
+	at org.example.h5.H5Application.main(H5Application.java:10) [classes/:?]
+
+2024-06-06T16:18:47.192+08:00  INFO 27392 --- [main] c.a.d.p.DruidDataSource                  : {dataSource-0} closing ...
+2024-06-06T16:20:45.005+08:00  INFO 16292 --- [main] o.e.h.H5Application                      : Starting H5Application using Java 17.0.11 with PID 16292 (E:\练习\stringboot\h5\target\classes started by Admin in E:\练习\stringboot)
+2024-06-06T16:20:45.011+08:00  INFO 16292 --- [main] o.e.h.H5Application                      : The following 1 profile is active: "dev"
+2024-06-06T16:20:45.706+08:00  WARN 16292 --- [main] o.m.s.m.ClassPathMapperScanner           : No MyBatis mapper was found in '[org.example.h5]' package. Please check your configuration.
+2024-06-06T16:20:46.226+08:00  INFO 16292 --- [main] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port 8080 (http)
+2024-06-06T16:20:46.230+08:00  INFO 16292 --- [main] o.a.c.c.AprLifecycleListener             : Loaded Apache Tomcat Native library [2.0.7] using APR version [1.7.4].
+2024-06-06T16:20:46.233+08:00  INFO 16292 --- [main] o.a.c.c.AprLifecycleListener             : OpenSSL successfully initialized [OpenSSL 3.0.13 30 Jan 2024]
+2024-06-06T16:20:46.240+08:00  INFO 16292 --- [main] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2024-06-06T16:20:46.241+08:00  INFO 16292 --- [main] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/10.1.24]
+2024-06-06T16:20:46.286+08:00  INFO 16292 --- [main] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2024-06-06T16:20:46.287+08:00  INFO 16292 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1245 ms
+2024-06-06T16:20:47.763+08:00  INFO 16292 --- [main] o.s.b.a.e.w.EndpointLinksResolver        : Exposing 1 endpoint beneath base path '/actuator'
+2024-06-06T16:20:47.827+08:00  INFO 16292 --- [main] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port 8080 (http) with context path '/'
+2024-06-06T16:20:47.843+08:00  INFO 16292 --- [main] o.e.h.H5Application                      : Started H5Application in 3.19 seconds (process running for 4.037)
+2024-06-06T16:20:47.849+08:00  INFO 16292 --- [main] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-06-06T16:20:47.860+08:00 ERROR 16292 --- [main] o.s.b.SpringApplication                  : Application run failed
+
+org.springframework.beans.factory.BeanNotOfRequiredTypeException: Bean named 'ddlApplicationRunner' is expected to be of type 'org.springframework.boot.Runner' but was actually of type 'org.springframework.beans.factory.support.NullBean'
+	at org.springframework.beans.factory.support.AbstractBeanFactory.adaptBeanInstance(AbstractBeanFactory.java:422) ~[spring-beans-6.1.8.jar:6.1.8]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:403) ~[spring-beans-6.1.8.jar:6.1.8]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:205) ~[spring-beans-6.1.8.jar:6.1.8]
+	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:770) [spring-boot-3.3.0.jar:3.3.0]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:342) [spring-boot-3.3.0.jar:3.3.0]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1363) [spring-boot-3.3.0.jar:3.3.0]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1352) [spring-boot-3.3.0.jar:3.3.0]
+	at org.example.h5.H5Application.main(H5Application.java:10) [classes/:?]
+
+2024-06-06T16:20:47.878+08:00  INFO 16292 --- [main] c.a.d.p.DruidDataSource                  : {dataSource-0} closing ...
+2024-06-06T16:26:05.776+08:00  INFO 29312 --- [main] o.e.h.H5Application                      : Starting H5Application using Java 17.0.11 with PID 29312 (E:\练习\stringboot\h5\target\classes started by Admin in E:\练习\stringboot)
+2024-06-06T16:26:05.782+08:00  INFO 29312 --- [main] o.e.h.H5Application                      : The following 1 profile is active: "dev"
+2024-06-06T16:26:06.429+08:00  WARN 29312 --- [main] o.m.s.m.ClassPathMapperScanner           : No MyBatis mapper was found in '[org.example.h5]' package. Please check your configuration.
+2024-06-06T16:26:06.908+08:00  INFO 29312 --- [main] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port 8080 (http)
+2024-06-06T16:26:06.912+08:00  INFO 29312 --- [main] o.a.c.c.AprLifecycleListener             : Loaded Apache Tomcat Native library [2.0.7] using APR version [1.7.4].
+2024-06-06T16:26:06.915+08:00  INFO 29312 --- [main] o.a.c.c.AprLifecycleListener             : OpenSSL successfully initialized [OpenSSL 3.0.13 30 Jan 2024]
+2024-06-06T16:26:06.921+08:00  INFO 29312 --- [main] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2024-06-06T16:26:06.922+08:00  INFO 29312 --- [main] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/10.1.24]
+2024-06-06T16:26:06.974+08:00  INFO 29312 --- [main] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2024-06-06T16:26:06.974+08:00  INFO 29312 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1167 ms
+2024-06-06T16:26:08.381+08:00  INFO 29312 --- [main] o.s.b.a.e.w.EndpointLinksResolver        : Exposing 1 endpoint beneath base path '/actuator'
+2024-06-06T16:26:08.445+08:00  INFO 29312 --- [main] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port 8080 (http) with context path '/'
+2024-06-06T16:26:08.459+08:00  INFO 29312 --- [main] o.e.h.H5Application                      : Started H5Application in 3.006 seconds (process running for 3.587)
+2024-06-06T16:26:08.464+08:00  INFO 29312 --- [main] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-06-06T16:26:08.475+08:00 ERROR 29312 --- [main] o.s.b.SpringApplication                  : Application run failed
+
+org.springframework.beans.factory.BeanNotOfRequiredTypeException: Bean named 'ddlApplicationRunner' is expected to be of type 'org.springframework.boot.Runner' but was actually of type 'org.springframework.beans.factory.support.NullBean'
+	at org.springframework.beans.factory.support.AbstractBeanFactory.adaptBeanInstance(AbstractBeanFactory.java:422) ~[spring-beans-6.1.8.jar:6.1.8]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:403) ~[spring-beans-6.1.8.jar:6.1.8]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:205) ~[spring-beans-6.1.8.jar:6.1.8]
+	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:770) [spring-boot-3.3.0.jar:3.3.0]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:342) [spring-boot-3.3.0.jar:3.3.0]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1363) [spring-boot-3.3.0.jar:3.3.0]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1352) [spring-boot-3.3.0.jar:3.3.0]
+	at org.example.h5.H5Application.main(H5Application.java:10) [classes/:?]
+
+2024-06-06T16:26:08.491+08:00  INFO 29312 --- [main] c.a.d.p.DruidDataSource                  : {dataSource-0} closing ...
+2024-06-06T16:35:28.784+08:00  INFO 5576 --- ${sys:LOGGED_APPLICATION_NAME}[main] o.e.h.H5Application                      : Starting H5Application using Java 17.0.11 with PID 5576 (E:\练习\stringboot\h5\target\classes started by Admin in E:\练习\stringboot)
+2024-06-06T16:35:28.811+08:00  INFO 5576 --- ${sys:LOGGED_APPLICATION_NAME}[main] o.e.h.H5Application                      : The following 1 profile is active: "dev"
+2024-06-06T16:35:29.499+08:00  WARN 5576 --- ${sys:LOGGED_APPLICATION_NAME}[main] o.m.s.m.ClassPathMapperScanner           : No MyBatis mapper was found in '[org.example.h5]' package. Please check your configuration.
+2024-06-06T16:35:30.078+08:00  INFO 5576 --- ${sys:LOGGED_APPLICATION_NAME}[main] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port 8080 (http)
+2024-06-06T16:35:30.081+08:00  INFO 5576 --- ${sys:LOGGED_APPLICATION_NAME}[main] o.a.c.c.AprLifecycleListener             : Loaded Apache Tomcat Native library [2.0.7] using APR version [1.7.4].
+2024-06-06T16:35:30.136+08:00  INFO 5576 --- ${sys:LOGGED_APPLICATION_NAME}[main] o.a.c.c.AprLifecycleListener             : OpenSSL successfully initialized [OpenSSL 3.0.13 30 Jan 2024]
+2024-06-06T16:35:30.142+08:00  INFO 5576 --- ${sys:LOGGED_APPLICATION_NAME}[main] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2024-06-06T16:35:30.142+08:00  INFO 5576 --- ${sys:LOGGED_APPLICATION_NAME}[main] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/10.1.16]
+2024-06-06T16:35:30.186+08:00  INFO 5576 --- ${sys:LOGGED_APPLICATION_NAME}[main] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2024-06-06T16:35:30.186+08:00  INFO 5576 --- ${sys:LOGGED_APPLICATION_NAME}[main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1349 ms
+2024-06-06T16:35:31.816+08:00  INFO 5576 --- ${sys:LOGGED_APPLICATION_NAME}[main] o.s.b.a.e.w.EndpointLinksResolver        : Exposing 1 endpoint(s) beneath base path '/actuator'
+2024-06-06T16:35:31.880+08:00  INFO 5576 --- ${sys:LOGGED_APPLICATION_NAME}[main] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port 8080 (http) with context path ''
+2024-06-06T16:35:31.893+08:00  INFO 5576 --- ${sys:LOGGED_APPLICATION_NAME}[main] o.e.h.H5Application                      : Started H5Application in 3.525 seconds (process running for 4.277)
+2024-06-06T16:35:32.317+08:00  INFO 5576 --- ${sys:LOGGED_APPLICATION_NAME}[RMI TCP Connection(1)-192.168.9.102] o.a.c.c.C.[.[.[/]                        : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-06T16:35:32.318+08:00  INFO 5576 --- ${sys:LOGGED_APPLICATION_NAME}[RMI TCP Connection(1)-192.168.9.102] o.s.w.s.DispatcherServlet                : Initializing Servlet 'dispatcherServlet'
+2024-06-06T16:35:32.319+08:00  INFO 5576 --- ${sys:LOGGED_APPLICATION_NAME}[RMI TCP Connection(1)-192.168.9.102] o.s.w.s.DispatcherServlet                : Completed initialization in 1 ms
+2024-06-06T16:35:32.359+08:00  INFO 5576 --- ${sys:LOGGED_APPLICATION_NAME}[RMI TCP Connection(2)-192.168.9.102] c.a.d.p.DruidDataSource                  : {dataSource-1} inited
+2024-06-06T16:40:42.362+08:00  INFO 5576 --- ${sys:LOGGED_APPLICATION_NAME}[http-nio-8080-exec-3] o.e.h.c.ApiAop                           : h5端===============================请求开始=============================
+2024-06-06T16:40:42.364+08:00  INFO 5576 --- ${sys:LOGGED_APPLICATION_NAME}[http-nio-8080-exec-3] o.e.h.c.ApiAop                           : h5端[请求IP]:127.0.0.1
+2024-06-06T16:40:42.365+08:00  INFO 5576 --- ${sys:LOGGED_APPLICATION_NAME}[http-nio-8080-exec-3] o.e.h.c.ApiAop                           : h5端[请求URL]:http://127.0.0.1:8080/, [请求方式]:GET
+2024-06-06T16:40:42.365+08:00  INFO 5576 --- ${sys:LOGGED_APPLICATION_NAME}[http-nio-8080-exec-3] o.e.h.c.ApiAop                           : h5端[请求类名]:org.example.h5.controller.TestController,[请求方法名]:test
+2024-06-06T16:40:42.422+08:00  INFO 5576 --- ${sys:LOGGED_APPLICATION_NAME}[http-nio-8080-exec-3] o.e.h.c.ApiAop                           : h5端[请求参数]:null
+2024-06-06T16:40:42.422+08:00 ERROR 5576 --- ${sys:LOGGED_APPLICATION_NAME}[http-nio-8080-exec-3] o.e.h.c.TestController                   : oldA error
+2024-06-06T16:40:42.422+08:00  INFO 5576 --- ${sys:LOGGED_APPLICATION_NAME}[http-nio-8080-exec-3] o.e.h.c.TestController                   : oldA info
+2024-06-06T16:40:42.422+08:00  WARN 5576 --- ${sys:LOGGED_APPLICATION_NAME}[http-nio-8080-exec-3] o.e.h.c.TestController                   : oldA warn
+2024-06-06T16:40:42.422+08:00  INFO 5576 --- ${sys:LOGGED_APPLICATION_NAME}[http-nio-8080-exec-3] o.e.h.c.ApiAop                           : h5端===============================返回内容=============================
+2024-06-06T16:40:42.422+08:00  INFO 5576 --- ${sys:LOGGED_APPLICATION_NAME}[http-nio-8080-exec-3] o.e.h.c.ApiAop                           : h5端result:"wodecehis"
+2024-06-06T16:40:42.422+08:00  INFO 5576 --- ${sys:LOGGED_APPLICATION_NAME}[http-nio-8080-exec-3] o.e.h.c.ApiAop                           : h5端===============================请求结束=============================
+2024-06-06T16:40:42.423+08:00  INFO 5576 --- ${sys:LOGGED_APPLICATION_NAME}[http-nio-8080-exec-3] o.e.h.c.ApiAop                           : h5端[请求耗时]:61毫秒
+2024-06-06T16:53:51.863+08:00  INFO 5576 --- ${sys:LOGGED_APPLICATION_NAME}[SpringApplicationShutdownHook] c.a.d.p.DruidDataSource                  : {dataSource-1} closing ...
+2024-06-06T16:53:51.873+08:00  INFO 5576 --- ${sys:LOGGED_APPLICATION_NAME}[SpringApplicationShutdownHook] c.a.d.p.DruidDataSource                  : {dataSource-1} closed
+2024-06-06T16:53:54.289+08:00  INFO 13664 --- ${sys:LOGGED_APPLICATION_NAME}[main] o.e.h.H5Application                      : Starting H5Application using Java 17.0.11 with PID 13664 (E:\练习\stringboot\h5\target\classes started by Admin in E:\练习\stringboot)
+2024-06-06T16:53:54.295+08:00  INFO 13664 --- ${sys:LOGGED_APPLICATION_NAME}[main] o.e.h.H5Application                      : The following 1 profile is active: "dev"
+2024-06-06T16:53:54.954+08:00  WARN 13664 --- ${sys:LOGGED_APPLICATION_NAME}[main] o.m.s.m.ClassPathMapperScanner           : No MyBatis mapper was found in '[org.example.h5]' package. Please check your configuration.
+2024-06-06T16:53:55.484+08:00  INFO 13664 --- ${sys:LOGGED_APPLICATION_NAME}[main] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port 8080 (http)
+2024-06-06T16:53:55.487+08:00  INFO 13664 --- ${sys:LOGGED_APPLICATION_NAME}[main] o.a.c.c.AprLifecycleListener             : Loaded Apache Tomcat Native library [2.0.7] using APR version [1.7.4].
+2024-06-06T16:53:55.500+08:00  INFO 13664 --- ${sys:LOGGED_APPLICATION_NAME}[main] o.a.c.c.AprLifecycleListener             : OpenSSL successfully initialized [OpenSSL 3.0.13 30 Jan 2024]
+2024-06-06T16:53:55.507+08:00  INFO 13664 --- ${sys:LOGGED_APPLICATION_NAME}[main] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2024-06-06T16:53:55.507+08:00  INFO 13664 --- ${sys:LOGGED_APPLICATION_NAME}[main] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/10.1.16]
+2024-06-06T16:53:55.557+08:00  INFO 13664 --- ${sys:LOGGED_APPLICATION_NAME}[main] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2024-06-06T16:53:55.557+08:00  INFO 13664 --- ${sys:LOGGED_APPLICATION_NAME}[main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1238 ms
+2024-06-06T16:53:57.097+08:00  INFO 13664 --- ${sys:LOGGED_APPLICATION_NAME}[main] o.s.b.a.e.w.EndpointLinksResolver        : Exposing 1 endpoint(s) beneath base path '/actuator'
+2024-06-06T16:53:57.161+08:00  INFO 13664 --- ${sys:LOGGED_APPLICATION_NAME}[main] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port 8080 (http) with context path ''
+2024-06-06T16:53:57.173+08:00  INFO 13664 --- ${sys:LOGGED_APPLICATION_NAME}[main] o.e.h.H5Application                      : Started H5Application in 3.32 seconds (process running for 4.095)
+2024-06-06T16:53:57.312+08:00  INFO 13664 --- ${sys:LOGGED_APPLICATION_NAME}[RMI TCP Connection(2)-192.168.9.102] o.a.c.c.C.[.[.[/]                        : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-06T16:53:57.312+08:00  INFO 13664 --- ${sys:LOGGED_APPLICATION_NAME}[RMI TCP Connection(2)-192.168.9.102] o.s.w.s.DispatcherServlet                : Initializing Servlet 'dispatcherServlet'
+2024-06-06T16:53:57.314+08:00  INFO 13664 --- ${sys:LOGGED_APPLICATION_NAME}[RMI TCP Connection(2)-192.168.9.102] o.s.w.s.DispatcherServlet                : Completed initialization in 1 ms
+2024-06-06T16:53:57.346+08:00  INFO 13664 --- ${sys:LOGGED_APPLICATION_NAME}[RMI TCP Connection(3)-192.168.9.102] c.a.d.p.DruidDataSource                  : {dataSource-1} inited
+2024-06-06T17:02:19.314+08:00  INFO 13664 --- ${sys:LOGGED_APPLICATION_NAME}[SpringApplicationShutdownHook] c.a.d.p.DruidDataSource                  : {dataSource-1} closing ...
+2024-06-06T17:02:19.319+08:00  INFO 13664 --- ${sys:LOGGED_APPLICATION_NAME}[SpringApplicationShutdownHook] c.a.d.p.DruidDataSource                  : {dataSource-1} closed
+2024-06-06T17:02:25.258+08:00  INFO 6088 --- ${sys:LOGGED_APPLICATION_NAME}[main] o.e.h.H5Application                      : Starting H5Application using Java 17.0.11 with PID 6088 (E:\练习\stringboot\h5\target\classes started by Admin in E:\练习\stringboot)
+2024-06-06T17:02:25.264+08:00  INFO 6088 --- ${sys:LOGGED_APPLICATION_NAME}[main] o.e.h.H5Application                      : The following 1 profile is active: "dev"
+2024-06-06T17:02:25.953+08:00  WARN 6088 --- ${sys:LOGGED_APPLICATION_NAME}[main] o.m.s.m.ClassPathMapperScanner           : No MyBatis mapper was found in '[org.example.h5]' package. Please check your configuration.
+2024-06-06T17:02:26.486+08:00  INFO 6088 --- ${sys:LOGGED_APPLICATION_NAME}[main] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port 8080 (http)
+2024-06-06T17:02:26.487+08:00  INFO 6088 --- ${sys:LOGGED_APPLICATION_NAME}[main] o.a.c.c.AprLifecycleListener             : Loaded Apache Tomcat Native library [2.0.7] using APR version [1.7.4].
+2024-06-06T17:02:26.492+08:00  INFO 6088 --- ${sys:LOGGED_APPLICATION_NAME}[main] o.a.c.c.AprLifecycleListener             : OpenSSL successfully initialized [OpenSSL 3.0.13 30 Jan 2024]
+2024-06-06T17:02:26.498+08:00  INFO 6088 --- ${sys:LOGGED_APPLICATION_NAME}[main] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2024-06-06T17:02:26.498+08:00  INFO 6088 --- ${sys:LOGGED_APPLICATION_NAME}[main] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/10.1.16]
+2024-06-06T17:02:26.546+08:00  INFO 6088 --- ${sys:LOGGED_APPLICATION_NAME}[main] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2024-06-06T17:02:26.547+08:00  INFO 6088 --- ${sys:LOGGED_APPLICATION_NAME}[main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1253 ms
+2024-06-06T17:02:27.392+08:00  WARN 6088 --- ${sys:LOGGED_APPLICATION_NAME}[main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Generic.class]: Unsatisfied dependency expressed through method 'dataSource' parameter 0: Error creating bean with name 'spring.datasource-org.springframework.boot.autoconfigure.jdbc.DataSourceProperties': Could not bind properties to 'DataSourceProperties' : prefix=spring.datasource, ignoreInvalidFields=false, ignoreUnknownFields=true
+2024-06-06T17:02:27.394+08:00  INFO 6088 --- ${sys:LOGGED_APPLICATION_NAME}[main] o.a.c.c.StandardService                  : Stopping service [Tomcat]
+2024-06-06T17:02:27.413+08:00  INFO 6088 --- ${sys:LOGGED_APPLICATION_NAME}[main] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-06-06T17:02:27.430+08:00 ERROR 6088 --- ${sys:LOGGED_APPLICATION_NAME}[main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to bind properties under 'spring.datasource.type' to java.lang.Class<javax.sql.DataSource>:
+
+    Property: spring.datasource.type
+    Value: "com.alibaba.druid.pool.DruidDataSource"
+    Origin: class path resource [application-dev.yml] - 10:11
+    Reason: failed to convert java.lang.String to java.lang.Class<javax.sql.DataSource> (caused by java.lang.ClassNotFoundException: com.alibaba.druid.pool.DruidDataSource)
+
+Action:
+
+Update your application's configuration
+
+2024-06-06T17:04:56.656+08:00  INFO 23432 --- ${sys:LOGGED_APPLICATION_NAME}[main] o.e.h.H5Application                      : Starting H5Application using Java 17.0.11 with PID 23432 (E:\练习\stringboot\h5\target\classes started by Admin in E:\练习\stringboot)
+2024-06-06T17:04:56.662+08:00  INFO 23432 --- ${sys:LOGGED_APPLICATION_NAME}[main] o.e.h.H5Application                      : The following 1 profile is active: "dev"
+2024-06-06T17:04:57.313+08:00  WARN 23432 --- ${sys:LOGGED_APPLICATION_NAME}[main] o.m.s.m.ClassPathMapperScanner           : No MyBatis mapper was found in '[org.example.h5]' package. Please check your configuration.
+2024-06-06T17:04:57.840+08:00  INFO 23432 --- ${sys:LOGGED_APPLICATION_NAME}[main] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port 8080 (http)
+2024-06-06T17:04:57.848+08:00  INFO 23432 --- ${sys:LOGGED_APPLICATION_NAME}[main] o.a.c.c.AprLifecycleListener             : Loaded Apache Tomcat Native library [2.0.7] using APR version [1.7.4].
+2024-06-06T17:04:57.853+08:00  INFO 23432 --- ${sys:LOGGED_APPLICATION_NAME}[main] o.a.c.c.AprLifecycleListener             : OpenSSL successfully initialized [OpenSSL 3.0.13 30 Jan 2024]
+2024-06-06T17:04:57.861+08:00  INFO 23432 --- ${sys:LOGGED_APPLICATION_NAME}[main] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2024-06-06T17:04:57.861+08:00  INFO 23432 --- ${sys:LOGGED_APPLICATION_NAME}[main] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/10.1.16]
+2024-06-06T17:04:57.905+08:00  INFO 23432 --- ${sys:LOGGED_APPLICATION_NAME}[main] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2024-06-06T17:04:57.905+08:00  INFO 23432 --- ${sys:LOGGED_APPLICATION_NAME}[main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1218 ms
+2024-06-06T17:04:58.892+08:00  INFO 23432 --- ${sys:LOGGED_APPLICATION_NAME}[main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2024-06-06T17:04:59.225+08:00  INFO 23432 --- ${sys:LOGGED_APPLICATION_NAME}[main] c.a.d.p.DruidDataSource                  : {dataSource-1} inited
+2024-06-06T17:04:59.985+08:00  INFO 23432 --- ${sys:LOGGED_APPLICATION_NAME}[main] o.s.b.a.e.w.EndpointLinksResolver        : Exposing 1 endpoint(s) beneath base path '/actuator'
+2024-06-06T17:05:00.061+08:00  INFO 23432 --- ${sys:LOGGED_APPLICATION_NAME}[main] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port 8080 (http) with context path ''
+2024-06-06T17:05:00.079+08:00  INFO 23432 --- ${sys:LOGGED_APPLICATION_NAME}[main] o.e.h.H5Application                      : Started H5Application in 3.754 seconds (process running for 4.298)
+2024-06-06T17:05:00.468+08:00  INFO 23432 --- ${sys:LOGGED_APPLICATION_NAME}[RMI TCP Connection(3)-192.168.9.102] o.a.c.c.C.[.[.[/]                        : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-06T17:05:00.469+08:00  INFO 23432 --- ${sys:LOGGED_APPLICATION_NAME}[RMI TCP Connection(3)-192.168.9.102] o.s.w.s.DispatcherServlet                : Initializing Servlet 'dispatcherServlet'
+2024-06-06T17:05:00.470+08:00  INFO 23432 --- ${sys:LOGGED_APPLICATION_NAME}[RMI TCP Connection(3)-192.168.9.102] o.s.w.s.DispatcherServlet                : Completed initialization in 1 ms
+2024-06-06T18:15:40.939+08:00  INFO 23432 --- ${sys:LOGGED_APPLICATION_NAME}[SpringApplicationShutdownHook] c.a.d.p.DruidDataSource                  : {dataSource-1} closing ...
+2024-06-06T18:15:40.963+08:00  INFO 23432 --- ${sys:LOGGED_APPLICATION_NAME}[SpringApplicationShutdownHook] c.a.d.p.DruidDataSource                  : {dataSource-1} closed
+2024-06-06T18:15:42.999+08:00  INFO 1988 --- ${sys:LOGGED_APPLICATION_NAME}[main] o.e.h.H5Application                      : Starting H5Application using Java 17.0.11 with PID 1988 (E:\练习\stringboot\h5\target\classes started by Admin in E:\练习\stringboot)
+2024-06-06T18:15:43.005+08:00  INFO 1988 --- ${sys:LOGGED_APPLICATION_NAME}[main] o.e.h.H5Application                      : The following 1 profile is active: "dev"
+2024-06-06T18:15:43.671+08:00  WARN 1988 --- ${sys:LOGGED_APPLICATION_NAME}[main] o.m.s.m.ClassPathMapperScanner           : No MyBatis mapper was found in '[org.example.h5]' package. Please check your configuration.
+2024-06-06T18:15:44.241+08:00  INFO 1988 --- ${sys:LOGGED_APPLICATION_NAME}[main] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port 8080 (http)
+2024-06-06T18:15:44.249+08:00  INFO 1988 --- ${sys:LOGGED_APPLICATION_NAME}[main] o.a.c.c.AprLifecycleListener             : Loaded Apache Tomcat Native library [2.0.7] using APR version [1.7.4].
+2024-06-06T18:15:44.252+08:00  INFO 1988 --- ${sys:LOGGED_APPLICATION_NAME}[main] o.a.c.c.AprLifecycleListener             : OpenSSL successfully initialized [OpenSSL 3.0.13 30 Jan 2024]
+2024-06-06T18:15:44.262+08:00  INFO 1988 --- ${sys:LOGGED_APPLICATION_NAME}[main] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2024-06-06T18:15:44.262+08:00  INFO 1988 --- ${sys:LOGGED_APPLICATION_NAME}[main] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/10.1.16]
+2024-06-06T18:15:44.327+08:00  INFO 1988 --- ${sys:LOGGED_APPLICATION_NAME}[main] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2024-06-06T18:15:44.327+08:00  INFO 1988 --- ${sys:LOGGED_APPLICATION_NAME}[main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1298 ms
+2024-06-06T18:15:45.341+08:00  INFO 1988 --- ${sys:LOGGED_APPLICATION_NAME}[main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2024-06-06T18:15:45.786+08:00  INFO 1988 --- ${sys:LOGGED_APPLICATION_NAME}[main] c.a.d.p.DruidDataSource                  : {dataSource-1} inited
+2024-06-06T18:15:46.552+08:00  INFO 1988 --- ${sys:LOGGED_APPLICATION_NAME}[main] o.s.b.a.e.w.EndpointLinksResolver        : Exposing 1 endpoint(s) beneath base path '/actuator'
+2024-06-06T18:15:46.634+08:00  INFO 1988 --- ${sys:LOGGED_APPLICATION_NAME}[main] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port 8080 (http) with context path ''
+2024-06-06T18:15:46.647+08:00  INFO 1988 --- ${sys:LOGGED_APPLICATION_NAME}[main] o.e.h.H5Application                      : Started H5Application in 4.111 seconds (process running for 4.762)
+2024-06-06T18:15:47.074+08:00  INFO 1988 --- ${sys:LOGGED_APPLICATION_NAME}[RMI TCP Connection(2)-192.168.9.102] o.a.c.c.C.[.[.[/]                        : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-06T18:15:47.075+08:00  INFO 1988 --- ${sys:LOGGED_APPLICATION_NAME}[RMI TCP Connection(2)-192.168.9.102] o.s.w.s.DispatcherServlet                : Initializing Servlet 'dispatcherServlet'
+2024-06-06T18:15:47.076+08:00  INFO 1988 --- ${sys:LOGGED_APPLICATION_NAME}[RMI TCP Connection(2)-192.168.9.102] o.s.w.s.DispatcherServlet                : Completed initialization in 1 ms
+2024-06-06T18:17:16.697+08:00  INFO 1988 --- ${sys:LOGGED_APPLICATION_NAME}[SpringApplicationShutdownHook] c.a.d.p.DruidDataSource                  : {dataSource-1} closing ...
+2024-06-06T18:17:16.702+08:00  INFO 1988 --- ${sys:LOGGED_APPLICATION_NAME}[SpringApplicationShutdownHook] c.a.d.p.DruidDataSource                  : {dataSource-1} closed
+2024-06-06T18:17:23.297+08:00  INFO 21248 --- ${sys:LOGGED_APPLICATION_NAME}[main] o.e.h.H5Application                      : Starting H5Application using Java 17.0.11 with PID 21248 (E:\练习\stringboot\h5\target\classes started by Admin in E:\练习\stringboot)
+2024-06-06T18:17:23.302+08:00  INFO 21248 --- ${sys:LOGGED_APPLICATION_NAME}[main] o.e.h.H5Application                      : The following 1 profile is active: "dev"
+2024-06-06T18:17:23.953+08:00  WARN 21248 --- ${sys:LOGGED_APPLICATION_NAME}[main] o.m.s.m.ClassPathMapperScanner           : No MyBatis mapper was found in '[org.example.h5]' package. Please check your configuration.
+2024-06-06T18:17:24.451+08:00  INFO 21248 --- ${sys:LOGGED_APPLICATION_NAME}[main] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port 8080 (http)
+2024-06-06T18:17:24.459+08:00  INFO 21248 --- ${sys:LOGGED_APPLICATION_NAME}[main] o.a.c.c.AprLifecycleListener             : Loaded Apache Tomcat Native library [2.0.7] using APR version [1.7.4].
+2024-06-06T18:17:24.462+08:00  INFO 21248 --- ${sys:LOGGED_APPLICATION_NAME}[main] o.a.c.c.AprLifecycleListener             : OpenSSL successfully initialized [OpenSSL 3.0.13 30 Jan 2024]
+2024-06-06T18:17:24.470+08:00  INFO 21248 --- ${sys:LOGGED_APPLICATION_NAME}[main] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2024-06-06T18:17:24.470+08:00  INFO 21248 --- ${sys:LOGGED_APPLICATION_NAME}[main] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/10.1.16]
+2024-06-06T18:17:24.514+08:00  INFO 21248 --- ${sys:LOGGED_APPLICATION_NAME}[main] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2024-06-06T18:17:24.514+08:00  INFO 21248 --- ${sys:LOGGED_APPLICATION_NAME}[main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1188 ms
+2024-06-06T18:17:25.506+08:00  INFO 21248 --- ${sys:LOGGED_APPLICATION_NAME}[main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2024-06-06T18:17:25.807+08:00  INFO 21248 --- ${sys:LOGGED_APPLICATION_NAME}[main] c.a.d.p.DruidDataSource                  : {dataSource-1} inited
+2024-06-06T18:17:26.567+08:00  INFO 21248 --- ${sys:LOGGED_APPLICATION_NAME}[main] o.s.b.a.e.w.EndpointLinksResolver        : Exposing 1 endpoint(s) beneath base path '/actuator'
+2024-06-06T18:17:26.643+08:00  INFO 21248 --- ${sys:LOGGED_APPLICATION_NAME}[main] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port 8080 (http) with context path ''
+2024-06-06T18:17:26.656+08:00  INFO 21248 --- ${sys:LOGGED_APPLICATION_NAME}[main] o.e.h.H5Application                      : Started H5Application in 3.689 seconds (process running for 4.216)
+2024-06-06T18:17:27.147+08:00  INFO 21248 --- ${sys:LOGGED_APPLICATION_NAME}[RMI TCP Connection(2)-192.168.9.102] o.a.c.c.C.[.[.[/]                        : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-06T18:17:27.147+08:00  INFO 21248 --- ${sys:LOGGED_APPLICATION_NAME}[RMI TCP Connection(2)-192.168.9.102] o.s.w.s.DispatcherServlet                : Initializing Servlet 'dispatcherServlet'
+2024-06-06T18:17:27.148+08:00  INFO 21248 --- ${sys:LOGGED_APPLICATION_NAME}[RMI TCP Connection(2)-192.168.9.102] o.s.w.s.DispatcherServlet                : Completed initialization in 1 ms
+2024-06-06T18:17:49.577+08:00  INFO 21248 --- ${sys:LOGGED_APPLICATION_NAME}[http-nio-8080-exec-1] o.e.h.c.ApiAop                           : h5端===============================请求开始=============================
+2024-06-06T18:17:49.579+08:00  INFO 21248 --- ${sys:LOGGED_APPLICATION_NAME}[http-nio-8080-exec-1] o.e.h.c.ApiAop                           : h5端[请求IP]:0:0:0:0:0:0:0:1
+2024-06-06T18:17:49.579+08:00  INFO 21248 --- ${sys:LOGGED_APPLICATION_NAME}[http-nio-8080-exec-1] o.e.h.c.ApiAop                           : h5端[请求URL]:http://localhost:8080/, [请求方式]:GET
+2024-06-06T18:17:49.579+08:00  INFO 21248 --- ${sys:LOGGED_APPLICATION_NAME}[http-nio-8080-exec-1] o.e.h.c.ApiAop                           : h5端[请求类名]:org.example.h5.controller.TestController,[请求方法名]:test
+2024-06-06T18:17:49.616+08:00  INFO 21248 --- ${sys:LOGGED_APPLICATION_NAME}[http-nio-8080-exec-1] o.e.h.c.ApiAop                           : h5端[请求参数]:null
+2024-06-06T18:17:49.617+08:00 ERROR 21248 --- ${sys:LOGGED_APPLICATION_NAME}[http-nio-8080-exec-1] o.e.h.c.TestController                   : oldA error
+2024-06-06T18:17:49.617+08:00  INFO 21248 --- ${sys:LOGGED_APPLICATION_NAME}[http-nio-8080-exec-1] o.e.h.c.TestController                   : oldA info
+2024-06-06T18:17:49.617+08:00  WARN 21248 --- ${sys:LOGGED_APPLICATION_NAME}[http-nio-8080-exec-1] o.e.h.c.TestController                   : oldA warn
+2024-06-06T18:17:49.617+08:00  INFO 21248 --- ${sys:LOGGED_APPLICATION_NAME}[http-nio-8080-exec-1] o.e.h.c.ApiAop                           : h5端===============================返回内容=============================
+2024-06-06T18:17:49.617+08:00  INFO 21248 --- ${sys:LOGGED_APPLICATION_NAME}[http-nio-8080-exec-1] o.e.h.c.ApiAop                           : h5端result:"wodecehis"
+2024-06-06T18:17:49.617+08:00  INFO 21248 --- ${sys:LOGGED_APPLICATION_NAME}[http-nio-8080-exec-1] o.e.h.c.ApiAop                           : h5端===============================请求结束=============================
+2024-06-06T18:17:49.617+08:00  INFO 21248 --- ${sys:LOGGED_APPLICATION_NAME}[http-nio-8080-exec-1] o.e.h.c.ApiAop                           : h5端[请求耗时]:41毫秒
+2024-06-06T18:19:41.255+08:00  INFO 21248 --- ${sys:LOGGED_APPLICATION_NAME}[SpringApplicationShutdownHook] c.a.d.p.DruidDataSource                  : {dataSource-1} closing ...
+2024-06-06T18:19:41.260+08:00  INFO 21248 --- ${sys:LOGGED_APPLICATION_NAME}[SpringApplicationShutdownHook] c.a.d.p.DruidDataSource                  : {dataSource-1} closed
+2024-06-06T18:19:45.951+08:00  INFO 22316 --- ${sys:LOGGED_APPLICATION_NAME}[main] o.e.h.H5Application                      : Starting H5Application using Java 17.0.11 with PID 22316 (E:\练习\stringboot\h5\target\classes started by Admin in E:\练习\stringboot)
+2024-06-06T18:19:45.957+08:00  INFO 22316 --- ${sys:LOGGED_APPLICATION_NAME}[main] o.e.h.H5Application                      : The following 1 profile is active: "dev"
+2024-06-06T18:19:46.628+08:00  WARN 22316 --- ${sys:LOGGED_APPLICATION_NAME}[main] o.m.s.m.ClassPathMapperScanner           : No MyBatis mapper was found in '[org.example.h5]' package. Please check your configuration.
+2024-06-06T18:19:47.148+08:00  INFO 22316 --- ${sys:LOGGED_APPLICATION_NAME}[main] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port 8080 (http)
+2024-06-06T18:19:47.150+08:00  INFO 22316 --- ${sys:LOGGED_APPLICATION_NAME}[main] o.a.c.c.AprLifecycleListener             : Loaded Apache Tomcat Native library [2.0.7] using APR version [1.7.4].
+2024-06-06T18:19:47.159+08:00  INFO 22316 --- ${sys:LOGGED_APPLICATION_NAME}[main] o.a.c.c.AprLifecycleListener             : OpenSSL successfully initialized [OpenSSL 3.0.13 30 Jan 2024]
+2024-06-06T18:19:47.170+08:00  INFO 22316 --- ${sys:LOGGED_APPLICATION_NAME}[main] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2024-06-06T18:19:47.170+08:00  INFO 22316 --- ${sys:LOGGED_APPLICATION_NAME}[main] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/10.1.16]
+2024-06-06T18:19:47.219+08:00  INFO 22316 --- ${sys:LOGGED_APPLICATION_NAME}[main] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2024-06-06T18:19:47.219+08:00  INFO 22316 --- ${sys:LOGGED_APPLICATION_NAME}[main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1238 ms
+2024-06-06T18:19:48.238+08:00  INFO 22316 --- ${sys:LOGGED_APPLICATION_NAME}[main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2024-06-06T18:19:48.560+08:00  INFO 22316 --- ${sys:LOGGED_APPLICATION_NAME}[main] c.a.d.p.DruidDataSource                  : {dataSource-1} inited
+2024-06-06T18:19:49.342+08:00  INFO 22316 --- ${sys:LOGGED_APPLICATION_NAME}[main] o.s.b.a.e.w.EndpointLinksResolver        : Exposing 1 endpoint(s) beneath base path '/actuator'
+2024-06-06T18:19:49.419+08:00  INFO 22316 --- ${sys:LOGGED_APPLICATION_NAME}[main] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port 8080 (http) with context path ''
+2024-06-06T18:19:49.432+08:00  INFO 22316 --- ${sys:LOGGED_APPLICATION_NAME}[main] o.e.h.H5Application                      : Started H5Application in 3.814 seconds (process running for 4.366)
+2024-06-06T18:19:49.780+08:00  INFO 22316 --- ${sys:LOGGED_APPLICATION_NAME}[RMI TCP Connection(3)-192.168.9.102] o.a.c.c.C.[.[.[/]                        : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-06T18:19:49.780+08:00  INFO 22316 --- ${sys:LOGGED_APPLICATION_NAME}[RMI TCP Connection(3)-192.168.9.102] o.s.w.s.DispatcherServlet                : Initializing Servlet 'dispatcherServlet'
+2024-06-06T18:19:49.781+08:00  INFO 22316 --- ${sys:LOGGED_APPLICATION_NAME}[RMI TCP Connection(3)-192.168.9.102] o.s.w.s.DispatcherServlet                : Completed initialization in 1 ms
+2024-06-06T18:21:05.152+08:00  INFO 22316 --- ${sys:LOGGED_APPLICATION_NAME}[SpringApplicationShutdownHook] c.a.d.p.DruidDataSource                  : {dataSource-1} closing ...
+2024-06-06T18:21:05.157+08:00  INFO 22316 --- ${sys:LOGGED_APPLICATION_NAME}[SpringApplicationShutdownHook] c.a.d.p.DruidDataSource                  : {dataSource-1} closed
+2024-06-07T11:33:40.505+08:00  INFO 31492 --- ${sys:LOGGED_APPLICATION_NAME}[main] o.e.h.H5Application                      : Starting H5Application using Java 17.0.11 with PID 31492 (E:\练习\stringboot\h5\target\classes started by Admin in E:\练习\stringboot)
+2024-06-07T11:33:40.531+08:00  INFO 31492 --- ${sys:LOGGED_APPLICATION_NAME}[main] o.e.h.H5Application                      : The following 1 profile is active: "dev"
+2024-06-07T11:33:41.198+08:00  WARN 31492 --- ${sys:LOGGED_APPLICATION_NAME}[main] o.m.s.m.ClassPathMapperScanner           : No MyBatis mapper was found in '[org.example.h5]' package. Please check your configuration.
+2024-06-07T11:33:41.760+08:00  INFO 31492 --- ${sys:LOGGED_APPLICATION_NAME}[main] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port 8080 (http)
+2024-06-07T11:33:41.762+08:00  INFO 31492 --- ${sys:LOGGED_APPLICATION_NAME}[main] o.a.c.c.AprLifecycleListener             : Loaded Apache Tomcat Native library [2.0.7] using APR version [1.7.4].
+2024-06-07T11:33:41.819+08:00  INFO 31492 --- ${sys:LOGGED_APPLICATION_NAME}[main] o.a.c.c.AprLifecycleListener             : OpenSSL successfully initialized [OpenSSL 3.0.13 30 Jan 2024]
+2024-06-07T11:33:41.832+08:00  INFO 31492 --- ${sys:LOGGED_APPLICATION_NAME}[main] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2024-06-07T11:33:41.832+08:00  INFO 31492 --- ${sys:LOGGED_APPLICATION_NAME}[main] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/10.1.16]
+2024-06-07T11:33:41.891+08:00  INFO 31492 --- ${sys:LOGGED_APPLICATION_NAME}[main] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2024-06-07T11:33:41.891+08:00  INFO 31492 --- ${sys:LOGGED_APPLICATION_NAME}[main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1333 ms
+2024-06-07T11:33:42.888+08:00  INFO 31492 --- ${sys:LOGGED_APPLICATION_NAME}[main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2024-06-07T11:33:43.194+08:00  INFO 31492 --- ${sys:LOGGED_APPLICATION_NAME}[main] c.a.d.p.DruidDataSource                  : {dataSource-1} inited
+2024-06-07T11:33:43.950+08:00  INFO 31492 --- ${sys:LOGGED_APPLICATION_NAME}[main] o.s.b.a.e.w.EndpointLinksResolver        : Exposing 1 endpoint(s) beneath base path '/actuator'
+2024-06-07T11:33:44.064+08:00  INFO 31492 --- ${sys:LOGGED_APPLICATION_NAME}[main] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port 8080 (http) with context path ''
+2024-06-07T11:33:44.077+08:00  INFO 31492 --- ${sys:LOGGED_APPLICATION_NAME}[main] o.e.h.H5Application                      : Started H5Application in 3.898 seconds (process running for 4.538)
+2024-06-07T11:33:44.228+08:00  INFO 31492 --- ${sys:LOGGED_APPLICATION_NAME}[RMI TCP Connection(1)-192.168.9.102] o.a.c.c.C.[.[.[/]                        : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-07T11:33:44.229+08:00  INFO 31492 --- ${sys:LOGGED_APPLICATION_NAME}[RMI TCP Connection(1)-192.168.9.102] o.s.w.s.DispatcherServlet                : Initializing Servlet 'dispatcherServlet'
+2024-06-07T11:33:44.230+08:00  INFO 31492 --- ${sys:LOGGED_APPLICATION_NAME}[RMI TCP Connection(1)-192.168.9.102] o.s.w.s.DispatcherServlet                : Completed initialization in 1 ms
+2024-06-07T11:35:14.403+08:00  INFO 31492 --- ${sys:LOGGED_APPLICATION_NAME}[SpringApplicationShutdownHook] c.a.d.p.DruidDataSource                  : {dataSource-1} closing ...
+2024-06-07T11:35:14.409+08:00  INFO 31492 --- ${sys:LOGGED_APPLICATION_NAME}[SpringApplicationShutdownHook] c.a.d.p.DruidDataSource                  : {dataSource-1} closed
+2024-06-07T11:35:17.684+08:00  INFO 23240 --- ${sys:LOGGED_APPLICATION_NAME}[main] o.e.h.H5Application                      : Starting H5Application using Java 17.0.11 with PID 23240 (E:\练习\stringboot\h5\target\classes started by Admin in E:\练习\stringboot)
+2024-06-07T11:35:17.690+08:00  INFO 23240 --- ${sys:LOGGED_APPLICATION_NAME}[main] o.e.h.H5Application                      : The following 1 profile is active: "dev"
+2024-06-07T11:35:18.354+08:00  WARN 23240 --- ${sys:LOGGED_APPLICATION_NAME}[main] o.m.s.m.ClassPathMapperScanner           : No MyBatis mapper was found in '[org.example.h5]' package. Please check your configuration.
+2024-06-07T11:35:18.857+08:00  INFO 23240 --- ${sys:LOGGED_APPLICATION_NAME}[main] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port 8080 (http)
+2024-06-07T11:35:18.866+08:00  INFO 23240 --- ${sys:LOGGED_APPLICATION_NAME}[main] o.a.c.c.AprLifecycleListener             : Loaded Apache Tomcat Native library [2.0.7] using APR version [1.7.4].
+2024-06-07T11:35:18.869+08:00  INFO 23240 --- ${sys:LOGGED_APPLICATION_NAME}[main] o.a.c.c.AprLifecycleListener             : OpenSSL successfully initialized [OpenSSL 3.0.13 30 Jan 2024]
+2024-06-07T11:35:18.878+08:00  INFO 23240 --- ${sys:LOGGED_APPLICATION_NAME}[main] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2024-06-07T11:35:18.878+08:00  INFO 23240 --- ${sys:LOGGED_APPLICATION_NAME}[main] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/10.1.16]
+2024-06-07T11:35:18.925+08:00  INFO 23240 --- ${sys:LOGGED_APPLICATION_NAME}[main] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2024-06-07T11:35:18.925+08:00  INFO 23240 --- ${sys:LOGGED_APPLICATION_NAME}[main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1211 ms
+2024-06-07T11:35:19.909+08:00  INFO 23240 --- ${sys:LOGGED_APPLICATION_NAME}[main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2024-06-07T11:35:20.213+08:00  INFO 23240 --- ${sys:LOGGED_APPLICATION_NAME}[main] c.a.d.p.DruidDataSource                  : {dataSource-1} inited
+2024-06-07T11:35:20.977+08:00  INFO 23240 --- ${sys:LOGGED_APPLICATION_NAME}[main] o.s.b.a.e.w.EndpointLinksResolver        : Exposing 1 endpoint(s) beneath base path '/actuator'
+2024-06-07T11:35:21.049+08:00  INFO 23240 --- ${sys:LOGGED_APPLICATION_NAME}[main] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port 8080 (http) with context path ''
+2024-06-07T11:35:21.062+08:00  INFO 23240 --- ${sys:LOGGED_APPLICATION_NAME}[main] o.e.h.H5Application                      : Started H5Application in 3.7 seconds (process running for 4.241)
+2024-06-07T11:35:21.543+08:00  INFO 23240 --- ${sys:LOGGED_APPLICATION_NAME}[RMI TCP Connection(2)-192.168.9.102] o.a.c.c.C.[.[.[/]                        : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-07T11:35:21.543+08:00  INFO 23240 --- ${sys:LOGGED_APPLICATION_NAME}[RMI TCP Connection(2)-192.168.9.102] o.s.w.s.DispatcherServlet                : Initializing Servlet 'dispatcherServlet'
+2024-06-07T11:35:21.544+08:00  INFO 23240 --- ${sys:LOGGED_APPLICATION_NAME}[RMI TCP Connection(2)-192.168.9.102] o.s.w.s.DispatcherServlet                : Completed initialization in 1 ms
+2024-06-07T11:36:00.612+08:00  INFO 23240 --- ${sys:LOGGED_APPLICATION_NAME}[SpringApplicationShutdownHook] c.a.d.p.DruidDataSource                  : {dataSource-1} closing ...
+2024-06-07T11:36:00.620+08:00  INFO 23240 --- ${sys:LOGGED_APPLICATION_NAME}[SpringApplicationShutdownHook] c.a.d.p.DruidDataSource                  : {dataSource-1} closed
+2024-06-07T11:36:03.890+08:00  INFO 20712 --- ${sys:LOGGED_APPLICATION_NAME}[main] o.e.h.H5Application                      : Starting H5Application using Java 17.0.11 with PID 20712 (E:\练习\stringboot\h5\target\classes started by Admin in E:\练习\stringboot)
+2024-06-07T11:36:03.896+08:00  INFO 20712 --- ${sys:LOGGED_APPLICATION_NAME}[main] o.e.h.H5Application                      : The following 1 profile is active: "dev"
+2024-06-07T11:36:04.545+08:00  WARN 20712 --- ${sys:LOGGED_APPLICATION_NAME}[main] o.m.s.m.ClassPathMapperScanner           : No MyBatis mapper was found in '[org.example.h5]' package. Please check your configuration.
+2024-06-07T11:36:05.053+08:00  INFO 20712 --- ${sys:LOGGED_APPLICATION_NAME}[main] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port 8080 (http)
+2024-06-07T11:36:05.055+08:00  INFO 20712 --- ${sys:LOGGED_APPLICATION_NAME}[main] o.a.c.c.AprLifecycleListener             : Loaded Apache Tomcat Native library [2.0.7] using APR version [1.7.4].
+2024-06-07T11:36:05.058+08:00  INFO 20712 --- ${sys:LOGGED_APPLICATION_NAME}[main] o.a.c.c.AprLifecycleListener             : OpenSSL successfully initialized [OpenSSL 3.0.13 30 Jan 2024]
+2024-06-07T11:36:05.067+08:00  INFO 20712 --- ${sys:LOGGED_APPLICATION_NAME}[main] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2024-06-07T11:36:05.067+08:00  INFO 20712 --- ${sys:LOGGED_APPLICATION_NAME}[main] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/10.1.16]
+2024-06-07T11:36:05.113+08:00  INFO 20712 --- ${sys:LOGGED_APPLICATION_NAME}[main] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2024-06-07T11:36:05.114+08:00  INFO 20712 --- ${sys:LOGGED_APPLICATION_NAME}[main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1194 ms
+2024-06-07T11:36:06.104+08:00  INFO 20712 --- ${sys:LOGGED_APPLICATION_NAME}[main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2024-06-07T11:36:06.415+08:00  INFO 20712 --- ${sys:LOGGED_APPLICATION_NAME}[main] c.a.d.p.DruidDataSource                  : {dataSource-1} inited
+2024-06-07T11:36:07.160+08:00  INFO 20712 --- ${sys:LOGGED_APPLICATION_NAME}[main] o.s.b.a.e.w.EndpointLinksResolver        : Exposing 1 endpoint(s) beneath base path '/actuator'
+2024-06-07T11:36:07.232+08:00  INFO 20712 --- ${sys:LOGGED_APPLICATION_NAME}[main] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port 8080 (http) with context path ''
+2024-06-07T11:36:07.245+08:00  INFO 20712 --- ${sys:LOGGED_APPLICATION_NAME}[main] o.e.h.H5Application                      : Started H5Application in 3.688 seconds (process running for 4.23)
+2024-06-07T11:36:07.701+08:00  INFO 20712 --- ${sys:LOGGED_APPLICATION_NAME}[RMI TCP Connection(3)-192.168.9.102] o.a.c.c.C.[.[.[/]                        : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-07T11:36:07.702+08:00  INFO 20712 --- ${sys:LOGGED_APPLICATION_NAME}[RMI TCP Connection(3)-192.168.9.102] o.s.w.s.DispatcherServlet                : Initializing Servlet 'dispatcherServlet'
+2024-06-07T11:36:07.703+08:00  INFO 20712 --- ${sys:LOGGED_APPLICATION_NAME}[RMI TCP Connection(3)-192.168.9.102] o.s.w.s.DispatcherServlet                : Completed initialization in 1 ms
+2024-06-07T13:51:18.140+08:00  INFO 20712 --- ${sys:LOGGED_APPLICATION_NAME}[SpringApplicationShutdownHook] c.a.d.p.DruidDataSource                  : {dataSource-1} closing ...
+2024-06-07T13:51:18.169+08:00  INFO 20712 --- ${sys:LOGGED_APPLICATION_NAME}[SpringApplicationShutdownHook] c.a.d.p.DruidDataSource                  : {dataSource-1} closed
+2024-06-07T13:51:22.503+08:00  INFO 21464 --- ${sys:LOGGED_APPLICATION_NAME}[main] o.e.h.H5Application                      : Starting H5Application using Java 17.0.11 with PID 21464 (E:\练习\stringboot\h5\target\classes started by Admin in E:\练习\stringboot)
+2024-06-07T13:51:22.508+08:00  INFO 21464 --- ${sys:LOGGED_APPLICATION_NAME}[main] o.e.h.H5Application                      : The following 1 profile is active: "dev"
+2024-06-07T13:51:23.176+08:00  WARN 21464 --- ${sys:LOGGED_APPLICATION_NAME}[main] o.m.s.m.ClassPathMapperScanner           : No MyBatis mapper was found in '[org.example.h5]' package. Please check your configuration.
+2024-06-07T13:51:23.713+08:00  INFO 21464 --- ${sys:LOGGED_APPLICATION_NAME}[main] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port 8080 (http)
+2024-06-07T13:51:23.720+08:00  INFO 21464 --- ${sys:LOGGED_APPLICATION_NAME}[main] o.a.c.c.AprLifecycleListener             : Loaded Apache Tomcat Native library [2.0.7] using APR version [1.7.4].
+2024-06-07T13:51:23.724+08:00  INFO 21464 --- ${sys:LOGGED_APPLICATION_NAME}[main] o.a.c.c.AprLifecycleListener             : OpenSSL successfully initialized [OpenSSL 3.0.13 30 Jan 2024]
+2024-06-07T13:51:23.734+08:00  INFO 21464 --- ${sys:LOGGED_APPLICATION_NAME}[main] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2024-06-07T13:51:23.735+08:00  INFO 21464 --- ${sys:LOGGED_APPLICATION_NAME}[main] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/10.1.16]
+2024-06-07T13:51:23.789+08:00  INFO 21464 --- ${sys:LOGGED_APPLICATION_NAME}[main] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2024-06-07T13:51:23.789+08:00  INFO 21464 --- ${sys:LOGGED_APPLICATION_NAME}[main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1256 ms
+2024-06-07T13:51:24.774+08:00  INFO 21464 --- ${sys:LOGGED_APPLICATION_NAME}[main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2024-06-07T13:51:25.174+08:00  INFO 21464 --- ${sys:LOGGED_APPLICATION_NAME}[main] c.a.d.p.DruidDataSource                  : {dataSource-1} inited
+2024-06-07T13:51:25.926+08:00  INFO 21464 --- ${sys:LOGGED_APPLICATION_NAME}[main] o.s.b.a.e.w.EndpointLinksResolver        : Exposing 1 endpoint(s) beneath base path '/actuator'
+2024-06-07T13:51:26.000+08:00  INFO 21464 --- ${sys:LOGGED_APPLICATION_NAME}[main] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port 8080 (http) with context path ''
+2024-06-07T13:51:26.013+08:00  INFO 21464 --- ${sys:LOGGED_APPLICATION_NAME}[main] o.e.h.H5Application                      : Started H5Application in 3.945 seconds (process running for 4.784)
+2024-06-07T13:51:26.500+08:00  INFO 21464 --- ${sys:LOGGED_APPLICATION_NAME}[RMI TCP Connection(3)-192.168.9.102] o.a.c.c.C.[.[.[/]                        : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-07T13:51:26.501+08:00  INFO 21464 --- ${sys:LOGGED_APPLICATION_NAME}[RMI TCP Connection(3)-192.168.9.102] o.s.w.s.DispatcherServlet                : Initializing Servlet 'dispatcherServlet'
+2024-06-07T13:51:26.502+08:00  INFO 21464 --- ${sys:LOGGED_APPLICATION_NAME}[RMI TCP Connection(3)-192.168.9.102] o.s.w.s.DispatcherServlet                : Completed initialization in 1 ms
+2024-06-07T13:51:39.682+08:00  INFO 21464 --- ${sys:LOGGED_APPLICATION_NAME}[http-nio-8080-exec-1] o.e.h.c.ApiAop                           : h5端===============================请求开始=============================
+2024-06-07T13:51:39.684+08:00  INFO 21464 --- ${sys:LOGGED_APPLICATION_NAME}[http-nio-8080-exec-1] o.e.h.c.ApiAop                           : h5端[请求IP]:0:0:0:0:0:0:0:1
+2024-06-07T13:51:39.684+08:00  INFO 21464 --- ${sys:LOGGED_APPLICATION_NAME}[http-nio-8080-exec-1] o.e.h.c.ApiAop                           : h5端[请求URL]:http://localhost:8080/, [请求方式]:GET
+2024-06-07T13:51:39.684+08:00  INFO 21464 --- ${sys:LOGGED_APPLICATION_NAME}[http-nio-8080-exec-1] o.e.h.c.ApiAop                           : h5端[请求类名]:org.example.h5.controller.TestController,[请求方法名]:test
+2024-06-07T13:51:39.730+08:00  INFO 21464 --- ${sys:LOGGED_APPLICATION_NAME}[http-nio-8080-exec-1] o.e.h.c.ApiAop                           : h5端[请求参数]:null
+2024-06-07T13:51:39.730+08:00 ERROR 21464 --- ${sys:LOGGED_APPLICATION_NAME}[http-nio-8080-exec-1] o.e.h.c.TestController                   : oldA error
+2024-06-07T13:51:39.730+08:00  INFO 21464 --- ${sys:LOGGED_APPLICATION_NAME}[http-nio-8080-exec-1] o.e.h.c.TestController                   : oldA info
+2024-06-07T13:51:39.730+08:00  WARN 21464 --- ${sys:LOGGED_APPLICATION_NAME}[http-nio-8080-exec-1] o.e.h.c.TestController                   : oldA warn
+2024-06-07T13:51:39.731+08:00  INFO 21464 --- ${sys:LOGGED_APPLICATION_NAME}[http-nio-8080-exec-1] o.e.h.c.ApiAop                           : h5端===============================返回内容=============================
+2024-06-07T13:51:39.753+08:00  INFO 21464 --- ${sys:LOGGED_APPLICATION_NAME}[http-nio-8080-exec-1] o.e.h.c.ApiAop                           : h5端result:{"code":"200","data":"wodecehis","msg":"返回成功"}
+2024-06-07T13:51:39.753+08:00  INFO 21464 --- ${sys:LOGGED_APPLICATION_NAME}[http-nio-8080-exec-1] o.e.h.c.ApiAop                           : h5端===============================请求结束=============================
+2024-06-07T13:51:39.753+08:00  INFO 21464 --- ${sys:LOGGED_APPLICATION_NAME}[http-nio-8080-exec-1] o.e.h.c.ApiAop                           : h5端[请求耗时]:72毫秒
+2024-06-07T14:05:27.475+08:00  INFO 21464 --- ${sys:LOGGED_APPLICATION_NAME}[SpringApplicationShutdownHook] c.a.d.p.DruidDataSource                  : {dataSource-1} closing ...
+2024-06-07T14:05:27.483+08:00  INFO 21464 --- ${sys:LOGGED_APPLICATION_NAME}[SpringApplicationShutdownHook] c.a.d.p.DruidDataSource                  : {dataSource-1} closed
+2024-06-07T14:05:31.709+08:00  INFO 25400 --- ${sys:LOGGED_APPLICATION_NAME}[main] o.e.h.H5Application                      : Starting H5Application using Java 17.0.11 with PID 25400 (E:\练习\stringboot\h5\target\classes started by Admin in E:\练习\stringboot)
+2024-06-07T14:05:31.715+08:00  INFO 25400 --- ${sys:LOGGED_APPLICATION_NAME}[main] o.e.h.H5Application                      : The following 1 profile is active: "dev"
+2024-06-07T14:05:32.379+08:00  WARN 25400 --- ${sys:LOGGED_APPLICATION_NAME}[main] o.m.s.m.ClassPathMapperScanner           : No MyBatis mapper was found in '[org.example.h5]' package. Please check your configuration.
+2024-06-07T14:05:32.887+08:00  INFO 25400 --- ${sys:LOGGED_APPLICATION_NAME}[main] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port 8080 (http)
+2024-06-07T14:05:32.895+08:00  INFO 25400 --- ${sys:LOGGED_APPLICATION_NAME}[main] o.a.c.c.AprLifecycleListener             : Loaded Apache Tomcat Native library [2.0.7] using APR version [1.7.4].
+2024-06-07T14:05:32.899+08:00  INFO 25400 --- ${sys:LOGGED_APPLICATION_NAME}[main] o.a.c.c.AprLifecycleListener             : OpenSSL successfully initialized [OpenSSL 3.0.13 30 Jan 2024]
+2024-06-07T14:05:32.907+08:00  INFO 25400 --- ${sys:LOGGED_APPLICATION_NAME}[main] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2024-06-07T14:05:32.907+08:00  INFO 25400 --- ${sys:LOGGED_APPLICATION_NAME}[main] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/10.1.16]
+2024-06-07T14:05:32.954+08:00  INFO 25400 --- ${sys:LOGGED_APPLICATION_NAME}[main] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2024-06-07T14:05:32.955+08:00  INFO 25400 --- ${sys:LOGGED_APPLICATION_NAME}[main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1215 ms
+2024-06-07T14:05:33.944+08:00  INFO 25400 --- ${sys:LOGGED_APPLICATION_NAME}[main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2024-06-07T14:05:34.255+08:00  INFO 25400 --- ${sys:LOGGED_APPLICATION_NAME}[main] c.a.d.p.DruidDataSource                  : {dataSource-1} inited
+2024-06-07T14:05:35.012+08:00  INFO 25400 --- ${sys:LOGGED_APPLICATION_NAME}[main] o.s.b.a.e.w.EndpointLinksResolver        : Exposing 1 endpoint(s) beneath base path '/actuator'
+2024-06-07T14:05:35.089+08:00  INFO 25400 --- ${sys:LOGGED_APPLICATION_NAME}[main] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port 8080 (http) with context path ''
+2024-06-07T14:05:35.101+08:00  INFO 25400 --- ${sys:LOGGED_APPLICATION_NAME}[main] o.e.h.H5Application                      : Started H5Application in 3.778 seconds (process running for 4.335)
+2024-06-07T14:05:35.637+08:00  INFO 25400 --- ${sys:LOGGED_APPLICATION_NAME}[RMI TCP Connection(2)-192.168.9.102] o.a.c.c.C.[.[.[/]                        : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-07T14:05:35.637+08:00  INFO 25400 --- ${sys:LOGGED_APPLICATION_NAME}[RMI TCP Connection(2)-192.168.9.102] o.s.w.s.DispatcherServlet                : Initializing Servlet 'dispatcherServlet'
+2024-06-07T14:05:35.638+08:00  INFO 25400 --- ${sys:LOGGED_APPLICATION_NAME}[RMI TCP Connection(2)-192.168.9.102] o.s.w.s.DispatcherServlet                : Completed initialization in 1 ms
+2024-06-07T14:05:53.904+08:00  INFO 25400 --- ${sys:LOGGED_APPLICATION_NAME}[SpringApplicationShutdownHook] c.a.d.p.DruidDataSource                  : {dataSource-1} closing ...
+2024-06-07T14:05:53.911+08:00  INFO 25400 --- ${sys:LOGGED_APPLICATION_NAME}[SpringApplicationShutdownHook] c.a.d.p.DruidDataSource                  : {dataSource-1} closed
+2024-06-07T14:09:43.600+08:00  INFO 16968 --- ${sys:LOGGED_APPLICATION_NAME}[main] o.e.h.H5Application                      : Starting H5Application using Java 17.0.11 with PID 16968 (E:\练习\stringboot\h5\target\classes started by Admin in E:\练习\stringboot)
+2024-06-07T14:09:43.605+08:00  INFO 16968 --- ${sys:LOGGED_APPLICATION_NAME}[main] o.e.h.H5Application                      : The following 1 profile is active: "dev"
+2024-06-07T14:09:44.259+08:00  WARN 16968 --- ${sys:LOGGED_APPLICATION_NAME}[main] o.m.s.m.ClassPathMapperScanner           : No MyBatis mapper was found in '[org.example.h5]' package. Please check your configuration.
+2024-06-07T14:09:44.771+08:00  INFO 16968 --- ${sys:LOGGED_APPLICATION_NAME}[main] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port 8080 (http)
+2024-06-07T14:09:44.773+08:00  INFO 16968 --- ${sys:LOGGED_APPLICATION_NAME}[main] o.a.c.c.AprLifecycleListener             : Loaded Apache Tomcat Native library [2.0.7] using APR version [1.7.4].
+2024-06-07T14:09:44.777+08:00  INFO 16968 --- ${sys:LOGGED_APPLICATION_NAME}[main] o.a.c.c.AprLifecycleListener             : OpenSSL successfully initialized [OpenSSL 3.0.13 30 Jan 2024]
+2024-06-07T14:09:44.789+08:00  INFO 16968 --- ${sys:LOGGED_APPLICATION_NAME}[main] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2024-06-07T14:09:44.789+08:00  INFO 16968 --- ${sys:LOGGED_APPLICATION_NAME}[main] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/10.1.16]
+2024-06-07T14:09:44.839+08:00  INFO 16968 --- ${sys:LOGGED_APPLICATION_NAME}[main] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2024-06-07T14:09:44.840+08:00  INFO 16968 --- ${sys:LOGGED_APPLICATION_NAME}[main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1210 ms
+2024-06-07T14:09:45.848+08:00  INFO 16968 --- ${sys:LOGGED_APPLICATION_NAME}[main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2024-06-07T14:09:46.153+08:00  INFO 16968 --- ${sys:LOGGED_APPLICATION_NAME}[main] c.a.d.p.DruidDataSource                  : {dataSource-1} inited
+2024-06-07T14:09:46.904+08:00  INFO 16968 --- ${sys:LOGGED_APPLICATION_NAME}[main] o.s.b.a.e.w.EndpointLinksResolver        : Exposing 1 endpoint(s) beneath base path '/actuator'
+2024-06-07T14:09:46.976+08:00  INFO 16968 --- ${sys:LOGGED_APPLICATION_NAME}[main] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port 8080 (http) with context path ''
+2024-06-07T14:09:46.989+08:00  INFO 16968 --- ${sys:LOGGED_APPLICATION_NAME}[main] o.e.h.H5Application                      : Started H5Application in 3.714 seconds (process running for 4.253)
+2024-06-07T14:09:47.000+08:00  INFO 16968 --- ${sys:LOGGED_APPLICATION_NAME}[SpringApplicationShutdownHook] c.a.d.p.DruidDataSource                  : {dataSource-1} closing ...
+2024-06-07T14:09:47.005+08:00  INFO 16968 --- ${sys:LOGGED_APPLICATION_NAME}[SpringApplicationShutdownHook] c.a.d.p.DruidDataSource                  : {dataSource-1} closed
+2024-06-07T14:09:55.425+08:00  INFO 25016 --- ${sys:LOGGED_APPLICATION_NAME}[main] o.e.h.H5Application                      : Starting H5Application using Java 17.0.11 with PID 25016 (E:\练习\stringboot\h5\target\classes started by Admin in E:\练习\stringboot)
+2024-06-07T14:09:55.430+08:00  INFO 25016 --- ${sys:LOGGED_APPLICATION_NAME}[main] o.e.h.H5Application                      : The following 1 profile is active: "dev"
+2024-06-07T14:09:56.082+08:00  WARN 25016 --- ${sys:LOGGED_APPLICATION_NAME}[main] o.m.s.m.ClassPathMapperScanner           : No MyBatis mapper was found in '[org.example.h5]' package. Please check your configuration.
+2024-06-07T14:09:56.583+08:00  INFO 25016 --- ${sys:LOGGED_APPLICATION_NAME}[main] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port 8080 (http)
+2024-06-07T14:09:56.585+08:00  INFO 25016 --- ${sys:LOGGED_APPLICATION_NAME}[main] o.a.c.c.AprLifecycleListener             : Loaded Apache Tomcat Native library [2.0.7] using APR version [1.7.4].
+2024-06-07T14:09:56.588+08:00  INFO 25016 --- ${sys:LOGGED_APPLICATION_NAME}[main] o.a.c.c.AprLifecycleListener             : OpenSSL successfully initialized [OpenSSL 3.0.13 30 Jan 2024]
+2024-06-07T14:09:56.600+08:00  INFO 25016 --- ${sys:LOGGED_APPLICATION_NAME}[main] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2024-06-07T14:09:56.601+08:00  INFO 25016 --- ${sys:LOGGED_APPLICATION_NAME}[main] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/10.1.16]
+2024-06-07T14:09:56.652+08:00  INFO 25016 --- ${sys:LOGGED_APPLICATION_NAME}[main] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2024-06-07T14:09:56.653+08:00  INFO 25016 --- ${sys:LOGGED_APPLICATION_NAME}[main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1198 ms
+2024-06-07T14:09:57.646+08:00  INFO 25016 --- ${sys:LOGGED_APPLICATION_NAME}[main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2024-06-07T14:09:57.962+08:00  INFO 25016 --- ${sys:LOGGED_APPLICATION_NAME}[main] c.a.d.p.DruidDataSource                  : {dataSource-1} inited
+2024-06-07T14:09:58.758+08:00  INFO 25016 --- ${sys:LOGGED_APPLICATION_NAME}[main] o.s.b.a.e.w.EndpointLinksResolver        : Exposing 1 endpoint(s) beneath base path '/actuator'
+2024-06-07T14:09:58.834+08:00  INFO 25016 --- ${sys:LOGGED_APPLICATION_NAME}[main] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port 8080 (http) with context path ''
+2024-06-07T14:09:58.847+08:00  INFO 25016 --- ${sys:LOGGED_APPLICATION_NAME}[main] o.e.h.H5Application                      : Started H5Application in 3.746 seconds (process running for 4.286)
+2024-06-07T14:09:59.269+08:00  INFO 25016 --- ${sys:LOGGED_APPLICATION_NAME}[RMI TCP Connection(5)-192.168.9.102] o.a.c.c.C.[.[.[/]                        : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-07T14:09:59.269+08:00  INFO 25016 --- ${sys:LOGGED_APPLICATION_NAME}[RMI TCP Connection(5)-192.168.9.102] o.s.w.s.DispatcherServlet                : Initializing Servlet 'dispatcherServlet'
+2024-06-07T14:09:59.270+08:00  INFO 25016 --- ${sys:LOGGED_APPLICATION_NAME}[RMI TCP Connection(5)-192.168.9.102] o.s.w.s.DispatcherServlet                : Completed initialization in 1 ms
+2024-06-07T14:10:02.066+08:00  INFO 25016 --- ${sys:LOGGED_APPLICATION_NAME}[SpringApplicationShutdownHook] c.a.d.p.DruidDataSource                  : {dataSource-1} closing ...
+2024-06-07T14:10:02.071+08:00  INFO 25016 --- ${sys:LOGGED_APPLICATION_NAME}[SpringApplicationShutdownHook] c.a.d.p.DruidDataSource                  : {dataSource-1} closed
+2024-06-07T15:44:22.978+08:00  INFO 8736 --- ${sys:LOGGED_APPLICATION_NAME}[main] o.e.h.H5Application                      : Starting H5Application using Java 17.0.11 with PID 8736 (E:\练习\stringboot\h5\target\classes started by Admin in E:\练习\stringboot)
+2024-06-07T15:44:23.002+08:00  INFO 8736 --- ${sys:LOGGED_APPLICATION_NAME}[main] o.e.h.H5Application                      : The following 1 profile is active: "dev"
+2024-06-07T15:44:23.805+08:00  WARN 8736 --- ${sys:LOGGED_APPLICATION_NAME}[main] o.m.s.m.ClassPathMapperScanner           : No MyBatis mapper was found in '[org.example.h5]' package. Please check your configuration.
+2024-06-07T15:44:24.481+08:00  INFO 8736 --- ${sys:LOGGED_APPLICATION_NAME}[main] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port 8080 (http)
+2024-06-07T15:44:24.483+08:00  INFO 8736 --- ${sys:LOGGED_APPLICATION_NAME}[main] o.a.c.c.AprLifecycleListener             : Loaded Apache Tomcat Native library [2.0.7] using APR version [1.7.4].
+2024-06-07T15:44:24.509+08:00  INFO 8736 --- ${sys:LOGGED_APPLICATION_NAME}[main] o.a.c.c.AprLifecycleListener             : OpenSSL successfully initialized [OpenSSL 3.0.13 30 Jan 2024]
+2024-06-07T15:44:24.517+08:00  INFO 8736 --- ${sys:LOGGED_APPLICATION_NAME}[main] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2024-06-07T15:44:24.517+08:00  INFO 8736 --- ${sys:LOGGED_APPLICATION_NAME}[main] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/10.1.16]
+2024-06-07T15:44:24.573+08:00  INFO 8736 --- ${sys:LOGGED_APPLICATION_NAME}[main] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2024-06-07T15:44:24.574+08:00  INFO 8736 --- ${sys:LOGGED_APPLICATION_NAME}[main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1543 ms
+2024-06-07T15:44:25.627+08:00  INFO 8736 --- ${sys:LOGGED_APPLICATION_NAME}[main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2024-06-07T15:44:26.069+08:00  INFO 8736 --- ${sys:LOGGED_APPLICATION_NAME}[main] c.a.d.p.DruidDataSource                  : {dataSource-1} inited
+2024-06-07T15:44:26.848+08:00  INFO 8736 --- ${sys:LOGGED_APPLICATION_NAME}[main] o.s.b.a.e.w.EndpointLinksResolver        : Exposing 1 endpoint(s) beneath base path '/actuator'
+2024-06-07T15:44:26.931+08:00  INFO 8736 --- ${sys:LOGGED_APPLICATION_NAME}[main] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port 8080 (http) with context path ''
+2024-06-07T15:44:26.943+08:00  INFO 8736 --- ${sys:LOGGED_APPLICATION_NAME}[main] o.e.h.H5Application                      : Started H5Application in 4.427 seconds (process running for 5.053)
+2024-06-07T15:44:27.146+08:00  INFO 8736 --- ${sys:LOGGED_APPLICATION_NAME}[RMI TCP Connection(3)-192.168.9.102] o.a.c.c.C.[.[.[/]                        : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-07T15:44:27.147+08:00  INFO 8736 --- ${sys:LOGGED_APPLICATION_NAME}[RMI TCP Connection(3)-192.168.9.102] o.s.w.s.DispatcherServlet                : Initializing Servlet 'dispatcherServlet'
+2024-06-07T15:44:27.149+08:00  INFO 8736 --- ${sys:LOGGED_APPLICATION_NAME}[RMI TCP Connection(3)-192.168.9.102] o.s.w.s.DispatcherServlet                : Completed initialization in 2 ms
+2024-06-07T15:53:56.439+08:00  INFO 8736 --- ${sys:LOGGED_APPLICATION_NAME}[http-nio-8080-exec-1] o.e.h.c.ApiAop                           : h5端===============================请求开始=============================
+2024-06-07T15:53:56.440+08:00  INFO 8736 --- ${sys:LOGGED_APPLICATION_NAME}[http-nio-8080-exec-1] o.e.h.c.ApiAop                           : h5端[请求IP]:127.0.0.1
+2024-06-07T15:53:56.441+08:00  INFO 8736 --- ${sys:LOGGED_APPLICATION_NAME}[http-nio-8080-exec-1] o.e.h.c.ApiAop                           : h5端[请求URL]:http://127.0.0.1:8080/, [请求方式]:GET
+2024-06-07T15:53:56.441+08:00  INFO 8736 --- ${sys:LOGGED_APPLICATION_NAME}[http-nio-8080-exec-1] o.e.h.c.ApiAop                           : h5端[请求类名]:org.example.h5.controller.TestController,[请求方法名]:test
+2024-06-07T15:53:56.476+08:00  INFO 8736 --- ${sys:LOGGED_APPLICATION_NAME}[http-nio-8080-exec-1] o.e.h.c.ApiAop                           : h5端[请求参数]:null
+2024-06-07T15:53:56.476+08:00 ERROR 8736 --- ${sys:LOGGED_APPLICATION_NAME}[http-nio-8080-exec-1] o.e.h.c.TestController                   : oldA error
+2024-06-07T15:53:56.476+08:00  INFO 8736 --- ${sys:LOGGED_APPLICATION_NAME}[http-nio-8080-exec-1] o.e.h.c.TestController                   : oldA info
+2024-06-07T15:53:56.476+08:00  WARN 8736 --- ${sys:LOGGED_APPLICATION_NAME}[http-nio-8080-exec-1] o.e.h.c.TestController                   : oldA warn
+2024-06-07T15:53:56.477+08:00  INFO 8736 --- ${sys:LOGGED_APPLICATION_NAME}[http-nio-8080-exec-1] o.e.h.c.ApiAop                           : h5端===============================返回内容=============================
+2024-06-07T15:53:56.490+08:00  INFO 8736 --- ${sys:LOGGED_APPLICATION_NAME}[http-nio-8080-exec-1] o.e.h.c.ApiAop                           : h5端result:{"code":"200","data":"wodecehis","msg":"返回成功"}
+2024-06-07T15:53:56.490+08:00  INFO 8736 --- ${sys:LOGGED_APPLICATION_NAME}[http-nio-8080-exec-1] o.e.h.c.ApiAop                           : h5端===============================请求结束=============================
+2024-06-07T15:53:56.491+08:00  INFO 8736 --- ${sys:LOGGED_APPLICATION_NAME}[http-nio-8080-exec-1] o.e.h.c.ApiAop                           : h5端[请求耗时]:53毫秒
